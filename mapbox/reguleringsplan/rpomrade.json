@@ -48,7 +48,7 @@
         "rpomrade": {
             "type": "vector",
             "tiles": [
-                "vt://tiles/{z}/{y}/{x}"
+                "${OGCAPI_BASE_URL}/collections/rpomrade/tiles/WebMercatorQuad/{z}/{y}/{x}?f=mvt"
             ],
             "maxzoom": 18
         }

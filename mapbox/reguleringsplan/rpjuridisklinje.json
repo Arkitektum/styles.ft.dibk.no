@@ -1,8 +1,8 @@
 {
     "version": 8,
     "name": "RpJuridiskLinje",
-    "sprite": "http://localhost:5173/sprites/reguleringsplan",
-    "glyphs": "http://localhost:5173/glyphs/{fontstack}/{range}.pbf",
+    "sprite": "${STYLES_BASE_URL}/sprites/reguleringsplan",
+    "glyphs": "${STYLES_BASE_URL}/glyphs/{fontstack}/{range}.pbf",
     "layers": [
         {
             "id": "basemap",
@@ -553,7 +553,7 @@
         "rpjuridisklinje": {
             "type": "vector",
             "tiles": [
-                "vt://tiles/{z}/{y}/{x}"
+                "${OGCAPI_BASE_URL}/collections/rpjuridisklinje/tiles/WebMercatorQuad/{z}/{y}/{x}?f=mvt"
             ],
             "maxzoom": 18
         }

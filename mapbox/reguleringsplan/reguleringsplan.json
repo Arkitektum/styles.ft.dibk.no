@@ -1,8 +1,8 @@
 {
     "version": 8,
     "name": "Reguleringsplan",
-    "sprite": "http://localhost:5173/sprites/reguleringsplan",
-    "glyphs": "http://localhost:5173/glyphs/{fontstack}/{range}.pbf",
+    "sprite": "${STYLES_BASE_URL}/sprites/reguleringsplan",
+    "glyphs": "${STYLES_BASE_URL}/glyphs/{fontstack}/{range}.pbf",
     "layers": [
         {
             "id": "basemap",
@@ -2888,21 +2888,21 @@
         "rpomrade": {
             "type": "vector",
             "tiles": [
-                "http://localhost:5000/collections/rpomrade/tiles/WebMercatorQuad/{z}/{y}/{x}?f=mvt"
+                "${OGCAPI_BASE_URL}/collections/rpomrade/tiles/WebMercatorQuad/{z}/{y}/{x}?f=mvt"
             ],
             "maxzoom": 20
         },
         "rparealformalomrade": {
             "type": "vector",
             "tiles": [
-                "http://localhost:5000/collections/rparealformalomrade/tiles/WebMercatorQuad/{z}/{y}/{x}?f=mvt"
+                "${OGCAPI_BASE_URL}/collections/rparealformalomrade/tiles/WebMercatorQuad/{z}/{y}/{x}?f=mvt"
             ],
             "maxzoom": 20
         },
         "rppaskrift": {
             "type": "vector",
             "tiles": [
-                "http://localhost:5000/collections/rppaskrift/tiles/WebMercatorQuad/{z}/{y}/{x}?f=mvt"
+                "${OGCAPI_BASE_URL}/collections/rppaskrift/tiles/WebMercatorQuad/{z}/{y}/{x}?f=mvt"
             ],
             "maxzoom": 20
         }

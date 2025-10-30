@@ -1,7 +1,7 @@
 {
     "version": 8,
     "name": "RpPåskrift",
-    "glyphs": "http://localhost:5173/glyphs/{fontstack}/{range}.pbf",
+    "glyphs": "${STYLES_BASE_URL}/glyphs/{fontstack}/{range}.pbf",
     "layers": [
         {
             "id": "basemap",
@@ -45,7 +45,7 @@
         "rppaskrift": {
             "type": "vector",
             "tiles": [
-                "vt://tiles/{z}/{y}/{x}?f=mvt"
+                "${OGCAPI_BASE_URL}/collections/rppaskrift/tiles/WebMercatorQuad/{z}/{y}/{x}?f=mvt"
             ],
             "maxzoom": 18
         }

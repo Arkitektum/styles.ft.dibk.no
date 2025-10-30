@@ -1,7 +1,7 @@
 {
     "version": 8,
     "name": "RpArealformålOmråde",
-    "sprite": "http://localhost:5173/sprites/reguleringsplan",
+    "sprite": "${STYLES_BASE_URL}/sprites/reguleringsplan",
     "layers": [
         {
             "id": "basemap",
@@ -2835,7 +2835,7 @@
         "rparealformalomrade": {
             "type": "vector",
             "tiles": [
-                "http://localhost:5000/collections/rparealformalomrade/tiles/WebMercatorQuad/{z}/{y}/{x}?f=mvt"
+                "${OGCAPI_BASE_URL}/collections/rparealformalomrade/tiles/WebMercatorQuad/{z}/{y}/{x}?f=mvt"
             ],
             "maxzoom": 18
         }
