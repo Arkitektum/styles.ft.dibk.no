@@ -1,0 +1,53 @@
+{
+    "version": 8,
+    "name": "RpPåskrift",
+    "glyphs": "http://localhost:5173/glyphs/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "basemap",
+            "type": "raster",
+            "source": "basemap"
+        },
+        {
+            "id": "rppaskrift",
+            "type": "symbol",
+            "paint": {
+                "text-color": "#000000",
+                "text-halo-color": "#ffffff",
+                "text-halo-width": 1
+            },
+            "layout": {
+                "text-field": "{generelltekststreng}",
+                "text-font": [
+                    "pt-serif-regular"
+                ],
+                "text-rotate": [
+                    "get",
+                    "rotasjon"
+                ],
+                "text-size": 13,
+                "text-rotation-alignment": "map",
+                "symbol-placement": "point"
+            },
+            "source": "rppaskrift",
+            "source-layer": "rppaskrift"
+        }
+    ],
+    "sources": {
+        "basemap": {
+            "type": "raster",
+            "tiles": [
+                "https://cache.kartverket.no/v1/wmts/1.0.0/topograatone/default/webmercator/{z}/{y}/{x}.png"
+            ],
+            "tileSize": 256,
+            "maxzoom": 18
+        },
+        "rppaskrift": {
+            "type": "vector",
+            "tiles": [
+                "vt://tiles/{z}/{y}/{x}?f=mvt"
+            ],
+            "maxzoom": 18
+        }
+    }
+}

@@ -1,0 +1,561 @@
+{
+    "version": 8,
+    "name": "RpJuridiskLinje",
+    "sprite": "http://localhost:5173/sprites/reguleringsplan",
+    "glyphs": "http://localhost:5173/glyphs/{fontstack}/{range}.pbf",
+    "layers": [
+        {
+            "id": "basemap",
+            "type": "raster",
+            "source": "basemap"
+        },
+        {
+            "id": "juridisklinje-1203",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1203"
+            ],
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 0.5
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1204-line",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "12041"
+            ],
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 1,
+                "line-dasharray": [
+                    7,
+                    5
+                ]
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "minzoom": 17,            
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1204",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "12041"
+            ],
+            "type": "symbol",
+            "paint": {
+                "text-color": "#000000"
+            },
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 40,
+                "text-field": "Z",
+                "text-font": [
+                    "pt-sans-regular"
+                ],
+                "text-size": 14
+            },
+            "minzoom": 17,            
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1210",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1210"
+            ],
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 4
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1211",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1211"
+            ],
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 0.75,
+                "line-dasharray": [
+                    14,
+                    7
+                ]
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1213",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1213"
+            ],
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 1
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1214",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1214"
+            ],
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 2
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1215",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1215"
+            ],
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 1,
+                "line-dasharray": [
+                    7,
+                    7
+                ]
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1221",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1221"
+            ],
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 1,
+                "line-dasharray": [
+                    18,
+                    5,
+                    1,
+                    5
+                ]
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1222",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1222"
+            ],
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 1,
+                "line-dasharray": [
+                    7,
+                    4
+                ]
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1223",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1223"
+            ],
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 1,
+                "line-dasharray": [
+                    14,
+                    4,
+                    4,
+                    4
+                ]
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1224",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1224"
+            ],
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 1,
+                "line-dasharray": [
+                    9,
+                    7,
+                    1,
+                    7
+                ]
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1225",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1225"
+            ],
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 1,
+                "line-dasharray": [
+                    5,
+                    4
+                ]
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1226",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1226"
+            ],
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 1,
+                "line-dasharray": [
+                    3,
+                    3
+                ]
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1227",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1204"
+            ],
+            "type": "line",
+            "paint": {
+                "line-pattern": "juridisklinje-1227",
+                "line-width": 6,
+                "line-blur": 2
+            },
+            "minzoom": 17,
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1228-line",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1228"
+            ],
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 1
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "minzoom": 17,            
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1228",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1228"
+            ],
+            "type": "symbol",
+            "paint": {
+                "text-color": "#000000"
+            },
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 1,
+                "text-field": "|",
+                "text-font": [
+                    "pt-sans-regular"
+                ],
+                "text-size": 12,
+                "text-offset": [
+                    0,
+                    0.4
+                ]
+            },
+            "minzoom": 17,            
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1235-line",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1235"
+            ],
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 1
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "minzoom": 17,            
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1235",
+            "filter": [
+                "==",
+                "juridisklinje",
+                "1235"
+            ],
+            "type": "symbol",
+            "paint": {
+                "text-color": "#000000"
+            },
+            "layout": {
+                "symbol-placement": "line",
+                "symbol-spacing": 60,
+                "text-field": "//",
+                "text-font": [
+                    "pt-sans-regular"
+                ],
+                "text-size": 14
+            },
+            "minzoom": 17,            
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1259",
+            "type": "line",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "juridisklinje",
+                    "1259"
+                ],
+                [
+                    "==",
+                    "type",
+                    "linje"
+                ]
+            ],
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 1
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "minzoom": 17,
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1259-start",
+            "type": "symbol",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "juridisklinje",
+                    "1259"
+                ],
+                [
+                    "==",
+                    "type",
+                    "start"
+                ]
+            ],
+            "layout": {
+                "text-field": "|",
+                "text-font": [
+                    "pt-sans-regular"
+                ],
+                "text-size": 15,
+                "text-rotate": [
+                    "+",
+                    [
+                        "get",
+                        "peiling"
+                    ],
+                    120
+                ],
+                "text-rotation-alignment": "map",
+                "text-allow-overlap": true,
+                "text-ignore-placement": true
+            },
+            "minzoom": 17,            
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        },
+        {
+            "id": "juridisklinje-1259-slutt",
+            "type": "symbol",
+            "filter": [
+                "all",
+                [
+                    "==",
+                    "juridisklinje",
+                    "1259"
+                ],
+                [
+                    "==",
+                    "type",
+                    "slutt"
+                ]
+            ],
+            "layout": {
+                "text-field": "|",
+                "text-font": [
+                    "pt-sans-regular"
+                ],
+                "text-size": 15,
+                "text-rotate": [
+                    "+",
+                    [
+                        "get",
+                        "peiling"
+                    ],
+                    120
+                ],
+                "text-offset": [
+                    -0.1,
+                    0
+                ],
+                "text-rotation-alignment": "map",
+                "text-allow-overlap": true,
+                "text-ignore-placement": true
+            },
+            "minzoom": 17,            
+            "source": "rpjuridisklinje",
+            "source-layer": "rpjuridisklinje"
+        }
+    ],
+    "sources": {
+        "basemap": {
+            "type": "raster",
+            "tiles": [
+                "https://cache.kartverket.no/v1/wmts/1.0.0/topograatone/default/webmercator/{z}/{y}/{x}.png"
+            ],
+            "tileSize": 256,
+            "maxzoom": 18
+        },
+        "rpjuridisklinje": {
+            "type": "vector",
+            "tiles": [
+                "vt://tiles/{z}/{y}/{x}"
+            ],
+            "maxzoom": 18
+        }
+    }
+}

@@ -1,0 +1,2843 @@
+{
+    "version": 8,
+    "name": "RpArealformålOmråde",
+    "sprite": "http://localhost:5173/sprites/reguleringsplan",
+    "layers": [
+        {
+            "id": "basemap",
+            "type": "raster",
+            "source": "basemap"
+        },
+        {
+            "id": "arealformal-1001",
+            "filter": [
+                "==",
+                "arealformal",
+                "1001"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc00"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1110",
+            "filter": [
+                "==",
+                "arealformal",
+                "1110"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffff33"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1111",
+            "filter": [
+                "==",
+                "arealformal",
+                "1111"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1112",
+            "filter": [
+                "==",
+                "arealformal",
+                "1112"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffff33"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1113",
+            "filter": [
+                "==",
+                "arealformal",
+                "1113"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffff33"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1119",
+            "filter": [
+                "==",
+                "arealformal",
+                "1119"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffff33"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1120",
+            "filter": [
+                "==",
+                "arealformal",
+                "1120"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc66"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1121",
+            "filter": [
+                "==",
+                "arealformal",
+                "1121"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffe7ae"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1122",
+            "filter": [
+                "==",
+                "arealformal",
+                "1122"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc66"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1123",
+            "filter": [
+                "==",
+                "arealformal",
+                "1123"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc66"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1124",
+            "filter": [
+                "==",
+                "arealformal",
+                "1124"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc66"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1130",
+            "filter": [
+                "==",
+                "arealformal",
+                "1130"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9900"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1140",
+            "filter": [
+                "==",
+                "arealformal",
+                "1140"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc99cc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1150",
+            "filter": [
+                "==",
+                "arealformal",
+                "1150"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ccccff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1160",
+            "filter": [
+                "==",
+                "arealformal",
+                "1160"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1161",
+            "filter": [
+                "==",
+                "arealformal",
+                "1161"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1162",
+            "filter": [
+                "==",
+                "arealformal",
+                "1162"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1163",
+            "filter": [
+                "==",
+                "arealformal",
+                "1163"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1164",
+            "filter": [
+                "==",
+                "arealformal",
+                "1164"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1165",
+            "filter": [
+                "==",
+                "arealformal",
+                "1165"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1166",
+            "filter": [
+                "==",
+                "arealformal",
+                "1166"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1169",
+            "filter": [
+                "==",
+                "arealformal",
+                "1169"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1170",
+            "filter": [
+                "==",
+                "arealformal",
+                "1170"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#9999cc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1171",
+            "filter": [
+                "==",
+                "arealformal",
+                "1171"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#9999cc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1172",
+            "filter": [
+                "==",
+                "arealformal",
+                "1172"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#9999cc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1173",
+            "filter": [
+                "==",
+                "arealformal",
+                "1173"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#9999cc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1174",
+            "filter": [
+                "==",
+                "arealformal",
+                "1174"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#9999cc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1200",
+            "filter": [
+                "==",
+                "arealformal",
+                "1200"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1201",
+            "filter": [
+                "==",
+                "arealformal",
+                "1201"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1300",
+            "filter": [
+                "==",
+                "arealformal",
+                "1300"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#9966ff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1310",
+            "filter": [
+                "==",
+                "arealformal",
+                "1310"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc99ff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1320",
+            "filter": [
+                "==",
+                "arealformal",
+                "1320"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc99ff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1330",
+            "filter": [
+                "==",
+                "arealformal",
+                "1330"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc99ff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1340",
+            "filter": [
+                "==",
+                "arealformal",
+                "1340"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc66ff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1350",
+            "filter": [
+                "==",
+                "arealformal",
+                "1350"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc66ff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1360",
+            "filter": [
+                "==",
+                "arealformal",
+                "1360"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc66ff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1390",
+            "filter": [
+                "==",
+                "arealformal",
+                "1390"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#9966ff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1400",
+            "filter": [
+                "==",
+                "arealformal",
+                "1400"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99cc00"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1410",
+            "filter": [
+                "==",
+                "arealformal",
+                "1410"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99cc00"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1420",
+            "filter": [
+                "==",
+                "arealformal",
+                "1420"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99cc00"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1430",
+            "filter": [
+                "==",
+                "arealformal",
+                "1430"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#669900"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1440",
+            "filter": [
+                "==",
+                "arealformal",
+                "1440"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99cc00"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1450",
+            "filter": [
+                "==",
+                "arealformal",
+                "1450"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ccff33"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1460",
+            "filter": [
+                "==",
+                "arealformal",
+                "1460"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#669900"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1470",
+            "filter": [
+                "==",
+                "arealformal",
+                "1470"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#669900"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1490",
+            "filter": [
+                "==",
+                "arealformal",
+                "1490"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99cc00"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1500",
+            "filter": [
+                "==",
+                "arealformal",
+                "1500"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1501",
+            "filter": [
+                "==",
+                "arealformal",
+                "1501"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1502",
+            "filter": [
+                "==",
+                "arealformal",
+                "1502"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1510",
+            "filter": [
+                "==",
+                "arealformal",
+                "1510"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1520",
+            "filter": [
+                "==",
+                "arealformal",
+                "1520"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1530",
+            "filter": [
+                "==",
+                "arealformal",
+                "1530"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1540",
+            "filter": [
+                "==",
+                "arealformal",
+                "1540"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1541",
+            "filter": [
+                "==",
+                "arealformal",
+                "1541"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1542",
+            "filter": [
+                "==",
+                "arealformal",
+                "1542"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1550",
+            "filter": [
+                "==",
+                "arealformal",
+                "1550"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1560",
+            "filter": [
+                "==",
+                "arealformal",
+                "1560"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1570",
+            "filter": [
+                "==",
+                "arealformal",
+                "1570"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1587",
+            "filter": [
+                "==",
+                "arealformal",
+                "1587"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1588",
+            "filter": [
+                "==",
+                "arealformal",
+                "1588"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1589",
+            "filter": [
+                "==",
+                "arealformal",
+                "1589"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1590",
+            "filter": [
+                "==",
+                "arealformal",
+                "1590"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ff9933"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1600",
+            "filter": [
+                "==",
+                "arealformal",
+                "1600"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#66cc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1610",
+            "filter": [
+                "==",
+                "arealformal",
+                "1610"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#66cc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1620",
+            "filter": [
+                "==",
+                "arealformal",
+                "1620"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#66cc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1630",
+            "filter": [
+                "==",
+                "arealformal",
+                "1630"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#66cc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1690",
+            "filter": [
+                "==",
+                "arealformal",
+                "1690"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#66cc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1700",
+            "filter": [
+                "==",
+                "arealformal",
+                "1700"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc6699"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1710",
+            "filter": [
+                "==",
+                "arealformal",
+                "1710"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc6699"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1730",
+            "filter": [
+                "==",
+                "arealformal",
+                "1730"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc6699"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1800",
+            "filter": [
+                "==",
+                "arealformal",
+                "1800"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1800"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1801",
+            "filter": [
+                "==",
+                "arealformal",
+                "1801"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1801"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1802",
+            "filter": [
+                "==",
+                "arealformal",
+                "1802"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1802"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1803",
+            "filter": [
+                "==",
+                "arealformal",
+                "1803"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1803"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1804",
+            "filter": [
+                "==",
+                "arealformal",
+                "1804"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1804"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1810",
+            "filter": [
+                "==",
+                "arealformal",
+                "1810"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1810"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1811",
+            "filter": [
+                "==",
+                "arealformal",
+                "1811"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1811"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1812",
+            "filter": [
+                "==",
+                "arealformal",
+                "1812"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1812"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1813",
+            "filter": [
+                "==",
+                "arealformal",
+                "1813"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1813"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1814",
+            "filter": [
+                "==",
+                "arealformal",
+                "1814"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1814"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1824",
+            "filter": [
+                "==",
+                "arealformal",
+                "1824"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1824"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1825",
+            "filter": [
+                "==",
+                "arealformal",
+                "1825"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1825"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1826",
+            "filter": [
+                "==",
+                "arealformal",
+                "1826"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1826"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1830",
+            "filter": [
+                "==",
+                "arealformal",
+                "1830"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1830"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1831",
+            "filter": [
+                "==",
+                "arealformal",
+                "1831"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1831"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-1900",
+            "filter": [
+                "==",
+                "arealformal",
+                "1900"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-1900"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2001",
+            "filter": [
+                "==",
+                "arealformal",
+                "2001"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#999999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2010",
+            "filter": [
+                "==",
+                "arealformal",
+                "2010"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cccccc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2011",
+            "filter": [
+                "==",
+                "arealformal",
+                "2011"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cccccc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2012",
+            "filter": [
+                "==",
+                "arealformal",
+                "2012"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcccc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2013",
+            "filter": [
+                "==",
+                "arealformal",
+                "2013"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcccc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2014",
+            "filter": [
+                "==",
+                "arealformal",
+                "2014"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#f0dddb"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2015",
+            "filter": [
+                "==",
+                "arealformal",
+                "2015"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcccc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2016",
+            "filter": [
+                "==",
+                "arealformal",
+                "2016"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcccc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2017",
+            "filter": [
+                "==",
+                "arealformal",
+                "2017"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcccc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2018",
+            "filter": [
+                "==",
+                "arealformal",
+                "2018"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#999999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2019",
+            "filter": [
+                "==",
+                "arealformal",
+                "2019"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#999966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2020",
+            "filter": [
+                "==",
+                "arealformal",
+                "2020"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2021",
+            "filter": [
+                "==",
+                "arealformal",
+                "2021"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2022",
+            "filter": [
+                "==",
+                "arealformal",
+                "2022"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2023",
+            "filter": [
+                "==",
+                "arealformal",
+                "2023"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2024",
+            "filter": [
+                "==",
+                "arealformal",
+                "2024"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2025",
+            "filter": [
+                "==",
+                "arealformal",
+                "2025"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2026",
+            "filter": [
+                "==",
+                "arealformal",
+                "2026"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2027",
+            "filter": [
+                "==",
+                "arealformal",
+                "2027"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2028",
+            "filter": [
+                "==",
+                "arealformal",
+                "2028"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2029",
+            "filter": [
+                "==",
+                "arealformal",
+                "2029"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#999966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2030",
+            "filter": [
+                "==",
+                "arealformal",
+                "2030"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#999999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2031",
+            "filter": [
+                "==",
+                "arealformal",
+                "2031"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#999999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2032",
+            "filter": [
+                "==",
+                "arealformal",
+                "2032"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#999999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2033",
+            "filter": [
+                "==",
+                "arealformal",
+                "2033"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#999999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2034",
+            "filter": [
+                "==",
+                "arealformal",
+                "2034"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#999999"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2040",
+            "filter": [
+                "==",
+                "arealformal",
+                "2040"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99cccc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2041",
+            "filter": [
+                "==",
+                "arealformal",
+                "2041"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99cccc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2042",
+            "filter": [
+                "==",
+                "arealformal",
+                "2042"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99cccc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2043",
+            "filter": [
+                "==",
+                "arealformal",
+                "2043"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99cccc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2050",
+            "filter": [
+                "==",
+                "arealformal",
+                "2050"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcccc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2060",
+            "filter": [
+                "==",
+                "arealformal",
+                "2060"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2061",
+            "filter": [
+                "==",
+                "arealformal",
+                "2061"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2070",
+            "filter": [
+                "==",
+                "arealformal",
+                "2070"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2071",
+            "filter": [
+                "==",
+                "arealformal",
+                "2071"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2072",
+            "filter": [
+                "==",
+                "arealformal",
+                "2072"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2073",
+            "filter": [
+                "==",
+                "arealformal",
+                "2073"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2074",
+            "filter": [
+                "==",
+                "arealformal",
+                "2074"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cc9966"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2080",
+            "filter": [
+                "==",
+                "arealformal",
+                "2080"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#b9b9b9"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2081",
+            "filter": [
+                "==",
+                "arealformal",
+                "2081"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#b9b9b9"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2082",
+            "filter": [
+                "==",
+                "arealformal",
+                "2082"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#b9b9b9"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2083",
+            "filter": [
+                "==",
+                "arealformal",
+                "2083"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#b9b9b9"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2100",
+            "filter": [
+                "==",
+                "arealformal",
+                "2100"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2110",
+            "filter": [
+                "==",
+                "arealformal",
+                "2110"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2120",
+            "filter": [
+                "==",
+                "arealformal",
+                "2120"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2140",
+            "filter": [
+                "==",
+                "arealformal",
+                "2140"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2141",
+            "filter": [
+                "==",
+                "arealformal",
+                "2141"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2142",
+            "filter": [
+                "==",
+                "arealformal",
+                "2142"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2143",
+            "filter": [
+                "==",
+                "arealformal",
+                "2143"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2150",
+            "filter": [
+                "==",
+                "arealformal",
+                "2150"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2160",
+            "filter": [
+                "==",
+                "arealformal",
+                "2160"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2180",
+            "filter": [
+                "==",
+                "arealformal",
+                "2180"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2190",
+            "filter": [
+                "==",
+                "arealformal",
+                "2190"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffcc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2800",
+            "filter": [
+                "==",
+                "arealformal",
+                "2800"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-2800"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-2900",
+            "filter": [
+                "==",
+                "arealformal",
+                "2900"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-2900"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-3001",
+            "filter": [
+                "==",
+                "arealformal",
+                "3001"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-3020",
+            "filter": [
+                "==",
+                "arealformal",
+                "3020"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-3030",
+            "filter": [
+                "==",
+                "arealformal",
+                "3030"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-3031",
+            "filter": [
+                "==",
+                "arealformal",
+                "3031"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-3040",
+            "filter": [
+                "==",
+                "arealformal",
+                "3040"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-3041",
+            "filter": [
+                "==",
+                "arealformal",
+                "3041"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-3050",
+            "filter": [
+                "==",
+                "arealformal",
+                "3050"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-3060",
+            "filter": [
+                "==",
+                "arealformal",
+                "3060"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-3800",
+            "filter": [
+                "==",
+                "arealformal",
+                "3800"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-3800"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-3900",
+            "filter": [
+                "==",
+                "arealformal",
+                "3900"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-3900"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-4001",
+            "filter": [
+                "==",
+                "arealformal",
+                "4001"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cccc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-4010",
+            "filter": [
+                "==",
+                "arealformal",
+                "4010"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cccc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-4020",
+            "filter": [
+                "==",
+                "arealformal",
+                "4020"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cccc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-4030",
+            "filter": [
+                "==",
+                "arealformal",
+                "4030"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#cccc99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-4800",
+            "filter": [
+                "==",
+                "arealformal",
+                "4800"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-4800"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-4900",
+            "filter": [
+                "==",
+                "arealformal",
+                "4900"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-4900"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5100",
+            "filter": [
+                "==",
+                "arealformal",
+                "5100"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ccff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5110",
+            "filter": [
+                "==",
+                "arealformal",
+                "5110"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ccff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5111",
+            "filter": [
+                "==",
+                "arealformal",
+                "5111"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ccff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5112",
+            "filter": [
+                "==",
+                "arealformal",
+                "5112"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ccff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5113",
+            "filter": [
+                "==",
+                "arealformal",
+                "5113"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#33ff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5114",
+            "filter": [
+                "==",
+                "arealformal",
+                "5114"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#33ff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5115",
+            "filter": [
+                "==",
+                "arealformal",
+                "5115"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#33ff99"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5120",
+            "filter": [
+                "==",
+                "arealformal",
+                "5120"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ff66"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5130",
+            "filter": [
+                "==",
+                "arealformal",
+                "5130"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ff66"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5140",
+            "filter": [
+                "==",
+                "arealformal",
+                "5140"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ff66"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5200",
+            "filter": [
+                "==",
+                "arealformal",
+                "5200"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ccffcc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5210",
+            "filter": [
+                "==",
+                "arealformal",
+                "5210"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ccffcc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5220",
+            "filter": [
+                "==",
+                "arealformal",
+                "5220"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ccffcc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5230",
+            "filter": [
+                "==",
+                "arealformal",
+                "5230"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ccffcc"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5300",
+            "filter": [
+                "==",
+                "arealformal",
+                "5300"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#00cc66"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5400",
+            "filter": [
+                "==",
+                "arealformal",
+                "5400"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#00cc66"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5500",
+            "filter": [
+                "==",
+                "arealformal",
+                "5500"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#00cc66"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5600",
+            "filter": [
+                "==",
+                "arealformal",
+                "5600"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#00cc66"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-5900",
+            "filter": [
+                "==",
+                "arealformal",
+                "5900"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-5900"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6001",
+            "filter": [
+                "==",
+                "arealformal",
+                "6001"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ccffff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6100",
+            "filter": [
+                "==",
+                "arealformal",
+                "6100"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#33ccff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6200",
+            "filter": [
+                "==",
+                "arealformal",
+                "6200"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#33ccff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6220",
+            "filter": [
+                "==",
+                "arealformal",
+                "6220"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#33ccff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6230",
+            "filter": [
+                "==",
+                "arealformal",
+                "6230"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#33ccff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6240",
+            "filter": [
+                "==",
+                "arealformal",
+                "6240"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#33ccff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6300",
+            "filter": [
+                "==",
+                "arealformal",
+                "6300"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#6699ff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6310",
+            "filter": [
+                "==",
+                "arealformal",
+                "6310"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#9966ff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6320",
+            "filter": [
+                "==",
+                "arealformal",
+                "6320"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#6699ff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6330",
+            "filter": [
+                "==",
+                "arealformal",
+                "6330"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#6699ff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6400",
+            "filter": [
+                "==",
+                "arealformal",
+                "6400"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffccff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6410",
+            "filter": [
+                "==",
+                "arealformal",
+                "6410"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffccff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6420",
+            "filter": [
+                "==",
+                "arealformal",
+                "6420"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#ffccff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6500",
+            "filter": [
+                "==",
+                "arealformal",
+                "6500"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#3399ff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6600",
+            "filter": [
+                "==",
+                "arealformal",
+                "6600"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ffff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6610",
+            "filter": [
+                "==",
+                "arealformal",
+                "6610"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ffff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6620",
+            "filter": [
+                "==",
+                "arealformal",
+                "6620"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ffff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6700",
+            "filter": [
+                "==",
+                "arealformal",
+                "6700"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ffff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6710",
+            "filter": [
+                "==",
+                "arealformal",
+                "6710"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ffff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6720",
+            "filter": [
+                "==",
+                "arealformal",
+                "6720"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ffff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6760",
+            "filter": [
+                "==",
+                "arealformal",
+                "6760"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ffff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6770",
+            "filter": [
+                "==",
+                "arealformal",
+                "6770"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-color": "#99ffff"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6800",
+            "filter": [
+                "==",
+                "arealformal",
+                "6800"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-6800"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-6900",
+            "filter": [
+                "==",
+                "arealformal",
+                "6900"
+            ],
+            "type": "fill",
+            "paint": {
+                "fill-pattern": "arealformal-6900"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        },
+        {
+            "id": "arealformal-grense",
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 0.5
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "source": "rparealformalomrade",
+            "source-layer": "rparealformalomrade"
+        }
+    ],
+    "sources": {
+        "basemap": {
+            "type": "raster",
+            "tiles": [
+                "https://cache.kartverket.no/v1/wmts/1.0.0/topograatone/default/webmercator/{z}/{y}/{x}.png"
+            ],
+            "tileSize": 256,
+            "maxzoom": 18
+        },
+        "rparealformalomrade": {
+            "type": "vector",
+            "tiles": [
+                "http://localhost:5000/collections/rparealformalomrade/tiles/WebMercatorQuad/{z}/{y}/{x}?f=mvt"
+            ],
+            "maxzoom": 18
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "version": 8,
+    "name": "RpOmråde",
+    "layers": [
+        {
+            "id": "basemap",
+            "type": "raster",
+            "source": "basemap"
+        },
+        {
+            "id": "rpomrade_w",
+            "type": "line",
+            "paint": {
+                "line-color": "#ffffff",
+                "line-width": 3
+            },
+            "source": "rpomrade",
+            "source-layer": "rpomrade"
+        },
+        {
+            "id": "rpomrade_b",
+            "type": "line",
+            "paint": {
+                "line-color": "#000000",
+                "line-width": 3,
+                "line-dasharray": [
+                    5,
+                    2
+                ]
+            },
+            "layout": {
+                "line-cap": "square",
+                "line-join": "bevel"
+            },
+            "source": "rpomrade",
+            "source-layer": "rpomrade"
+        }
+    ],
+    "sources": {
+        "basemap": {
+            "type": "raster",
+            "tiles": [
+                "https://cache.kartverket.no/v1/wmts/1.0.0/topograatone/default/webmercator/{z}/{y}/{x}.png"
+            ],
+            "tileSize": 256,
+            "maxzoom": 18
+        },
+        "rpomrade": {
+            "type": "vector",
+            "tiles": [
+                "vt://tiles/{z}/{y}/{x}"
+            ],
+            "maxzoom": 18
+        }
+    }
+}
