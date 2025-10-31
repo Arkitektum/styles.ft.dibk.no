@@ -16,7 +16,7 @@
                      <se:GraphicFill>
                         <se:Graphic>
                            <se:ExternalGraphic>
-                              <se:OnlineResource xlink:type="simple" xlink:href="${BASE_PATH}/symbols/angitthensynsone.svg" />
+                              <se:OnlineResource xlink:type="simple" xlink:href="${STYLES_BASE_PATH}/symbols/angitthensynsone.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>32</se:Size>
