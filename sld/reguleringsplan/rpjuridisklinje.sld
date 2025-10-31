@@ -56,7 +56,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="${STYLES_BASE_PATH}/symbols/juridisk-linje-1204.png" />
+                                            xlink:href="${REGULERINGSPLAN_STYLES_PATH}/symbols/juridisk-linje-1204.png" />
                                         <se:Format>image/png</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>13</se:Size>
@@ -310,7 +310,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource
-                                            xlink:href="${STYLES_BASE_PATH}/symbols/juridisk-linje-1227.svg"
+                                            xlink:href="${REGULERINGSPLAN_STYLES_PATH}/symbols/juridisk-linje-1227.svg"
                                             xlink:type="simple" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
@@ -345,7 +345,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="${STYLES_BASE_PATH}/symbols/svart-halv-linje.svg" />
+                                            xlink:href="${REGULERINGSPLAN_STYLES_PATH}/symbols/svart-halv-linje.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>18</se:Size>
@@ -385,7 +385,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="${STYLES_BASE_PATH}/symbols/juridisk-linje-1235.png" />
+                                            xlink:href="${REGULERINGSPLAN_STYLES_PATH}/symbols/juridisk-linje-1235.png" />
                                         <se:Format>image/png</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>14</se:Size>
@@ -456,7 +456,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="${STYLES_BASE_PATH}/symbols/juridisk-linje-1259.svg" />
+                                    xlink:href="${REGULERINGSPLAN_STYLES_PATH}/symbols/juridisk-linje-1259.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>12</se:Size>
@@ -479,7 +479,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="${STYLES_BASE_PATH}/symbols/juridisk-linje-1259.svg" />
+                                    xlink:href="${REGULERINGSPLAN_STYLES_PATH}/symbols/juridisk-linje-1259.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>12</se:Size>

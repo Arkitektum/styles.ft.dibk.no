@@ -18,7 +18,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="${STYLES_BASE_PATH}/symbols/bandleggingsone.svg" />
+                                            xlink:href="${REGULERINGSPLAN_STYLES_PATH}/symbols/bandleggingsone.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>22</se:Size>

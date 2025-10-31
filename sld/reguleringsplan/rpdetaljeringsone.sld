@@ -25,7 +25,7 @@
                      <se:GraphicFill>
                         <se:Graphic>
                            <se:ExternalGraphic>
-                              <se:OnlineResource xlink:type="simple" xlink:href="${STYLES_BASE_PATH}/symbols/svart-linje.svg" />
+                              <se:OnlineResource xlink:type="simple" xlink:href="${REGULERINGSPLAN_STYLES_PATH}/symbols/svart-linje.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
