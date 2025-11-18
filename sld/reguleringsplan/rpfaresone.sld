@@ -30,7 +30,7 @@
                      <se:GraphicFill>
                         <se:Graphic>
                            <se:ExternalGraphic>
-                              <se:OnlineResource xlink:type="simple" xlink:href="/workspaces/reguleringsplaner/styles/symbols/faresone.svg" />
+                              <se:OnlineResource xlink:type="simple" xlink:href="${REGPLAN_STYLES_DIR}/symbols/faresone.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>20</se:Size>

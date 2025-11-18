@@ -32,7 +32,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/reguleringsplaner/styles/symbols/bestemmelseomrade.svg" />
+                                            xlink:href="${REGPLAN_STYLES_DIR}/symbols/bestemmelseomrade.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>18</se:Size>

@@ -1916,7 +1916,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/hatch-45.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/hatch-45.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>14</se:Size>
@@ -1946,7 +1946,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/hatch-45.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/hatch-45.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>14</se:Size>
@@ -1976,7 +1976,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/hatch-45.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/hatch-45.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>14</se:Size>
@@ -2006,7 +2006,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/hatch-45.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/hatch-45.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>14</se:Size>
@@ -2036,7 +2036,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/hatch-45.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/hatch-45.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>14</se:Size>
@@ -2066,7 +2066,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/hatch-45.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/hatch-45.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>14</se:Size>
@@ -2096,7 +2096,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/hatch-45.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/hatch-45.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>14</se:Size>
@@ -2126,7 +2126,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/hatch-45.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/hatch-45.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>14</se:Size>
@@ -2156,7 +2156,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/hatch-45.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/hatch-45.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>14</se:Size>
@@ -2181,7 +2181,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/reguleringsformal-910.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/reguleringsformal-910.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2206,7 +2206,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/reguleringsformal-911.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/reguleringsformal-911.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>45</se:Size>
@@ -2231,7 +2231,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/reguleringsformal-912.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/reguleringsformal-912.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2256,7 +2256,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/reguleringsformal-913.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/reguleringsformal-913.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2281,7 +2281,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/reguleringsformal-920.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/reguleringsformal-920.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2306,7 +2306,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/reguleringsformal-921.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/reguleringsformal-921.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>45</se:Size>
@@ -2331,7 +2331,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/reguleringsformal-922.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/reguleringsformal-922.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2356,7 +2356,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/reguleringsformal-923.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/reguleringsformal-923.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>45</se:Size>
@@ -2381,7 +2381,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/reguleringsformal-924.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/reguleringsformal-924.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2406,7 +2406,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/reguleringsformal-930.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/reguleringsformal-930.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2431,7 +2431,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/reguleringsformal-931.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/reguleringsformal-931.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2456,7 +2456,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/reguleringsformal-939.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/reguleringsformal-939.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2481,7 +2481,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/reguleringsformal-960.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/reguleringsformal-960.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2506,7 +2506,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/reguleringsformal-980.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/reguleringsformal-980.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2531,7 +2531,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/reguleringsformal-990.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/reguleringsformal-990.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>

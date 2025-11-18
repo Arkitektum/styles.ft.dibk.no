@@ -282,7 +282,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource
-                                            xlink:href="/workspaces/reguleringsplaner/styles/symbols/juridisklinje-1227.svg"
+                                            xlink:href="${REGPLAN_STYLES_DIR}/symbols/juridisklinje-1227.svg"
                                             xlink:type="simple" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>

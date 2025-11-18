@@ -1087,7 +1087,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1800.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1800.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -1112,7 +1112,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1801.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1801.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -1137,7 +1137,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1802.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1802.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>45</se:Size>
@@ -1162,7 +1162,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1803.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1803.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -1187,7 +1187,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1804.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1804.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -1212,7 +1212,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1810.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1810.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -1237,7 +1237,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1811.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1811.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>45</se:Size>
@@ -1262,7 +1262,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1812.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1812.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -1287,7 +1287,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1813.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1813.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>45</se:Size>
@@ -1312,7 +1312,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1814.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1814.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -1337,7 +1337,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1824.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1824.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -1362,7 +1362,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1825.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1825.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -1387,7 +1387,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1826.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1826.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -1412,7 +1412,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1830.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1830.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -1437,7 +1437,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1831.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1831.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -1462,7 +1462,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-1900.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-1900.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2283,7 +2283,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-2800.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-2800.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2308,7 +2308,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-2900.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-2900.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2453,7 +2453,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-3800.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-3800.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2478,7 +2478,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-3900.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-3900.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2563,7 +2563,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-4800.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-4800.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2588,7 +2588,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-4900.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-4900.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -2884,7 +2884,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-5900.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-5900.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -3240,7 +3240,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-6800.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-6800.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>
@@ -3266,7 +3266,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/arealformal-6900.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/arealformal-6900.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>18</se:Size>

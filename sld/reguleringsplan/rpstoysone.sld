@@ -32,7 +32,7 @@
                         <se:Graphic>
                            <se:ExternalGraphic>
                               <se:OnlineResource xlink:type="simple"
-                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/hatch-135.svg" />
+                                 xlink:href="${REGPLAN_STYLES_DIR}/symbols/hatch-135.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
                            <se:Size>28</se:Size>
