@@ -49,7 +49,7 @@
                     <se:TextSymbolizer>
                         <se:Label>Z</se:Label>
                         <se:Font>
-                            <se:SvgParameter name="font-size">11</se:SvgParameter>
+                            <se:SvgParameter name="font-size">12</se:SvgParameter>
                             <se:SvgParameter name="font-family">SansSerif</se:SvgParameter>
                         </se:Font>
                         <se:LabelPlacement>
@@ -58,7 +58,7 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
-                        <se:VendorOption name="repeat">40</se:VendorOption>
+                        <se:VendorOption name="repeat">50</se:VendorOption>
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
