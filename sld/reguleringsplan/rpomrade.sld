@@ -11,7 +11,8 @@
          <se:Name>RpOmråde</se:Name>
          <se:FeatureTypeStyle>
             <se:Rule>
-               <se:Name>RpOmråde</se:Name>
+               <se:Name>Grense</se:Name>
+               <se:MaxScaleDenominator>75000</se:MaxScaleDenominator>
                <se:LineSymbolizer>
                   <se:Stroke>
                      <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -27,6 +28,43 @@
                      <se:SvgParameter name="stroke-dasharray">18 7</se:SvgParameter>
                   </se:Stroke>
                </se:LineSymbolizer>
+               <se:TextSymbolizer>
+                  <se:Label>
+                     <ogc:PropertyName>plannavn</ogc:PropertyName>
+                  </se:Label>
+                  <se:Font>
+                     <se:SvgParameter name="font-family">Serif</se:SvgParameter>
+                     <se:SvgParameter name="font-size">12</se:SvgParameter>
+                  </se:Font>
+                  <se:LabelPlacement>
+                     <se:PointPlacement>
+                        <se:AnchorPoint>
+                           <se:AnchorPointX>0.5</se:AnchorPointX>
+                           <se:AnchorPointY>0.5</se:AnchorPointY>
+                        </se:AnchorPoint>
+                     </se:PointPlacement>
+                  </se:LabelPlacement>
+                  <se:Halo>
+                     <se:Radius>1</se:Radius>
+                     <se:Fill>
+                        <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
+                     </se:Fill>
+                  </se:Halo>
+                  <se:Fill>
+                     <se:SvgParameter name="fill">#000000</se:SvgParameter>
+                  </se:Fill>
+               </se:TextSymbolizer>
+            </se:Rule>
+            <se:Rule>
+               <se:Name>Område</se:Name>
+               <se:MinScaleDenominator>75000</se:MinScaleDenominator>
+               <se:MaxScaleDenominator>1000000</se:MaxScaleDenominator>
+               <se:PolygonSymbolizer>
+                  <se:Fill>
+                     <se:SvgParameter name="fill">#6767ff</se:SvgParameter>
+                     <se:SvgParameter name="fill-opacity">0.35</se:SvgParameter>
+                  </se:Fill>
+               </se:PolygonSymbolizer>
             </se:Rule>
          </se:FeatureTypeStyle>
       </UserStyle>

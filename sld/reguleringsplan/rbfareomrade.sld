@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld"
-    xmlns:ogc="http://www.opengis.net/ogc"
-    xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0"
-    xmlns:se="http://www.opengis.net/se"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
+   xmlns:ogc="http://www.opengis.net/ogc"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0"
+   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+   xmlns:se="http://www.opengis.net/se"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
    <NamedLayer>
-      <se:Name>rpstoysone</se:Name>
+      <se:Name>rbfareomrade</se:Name>
       <UserStyle>
-         <se:Name>RpStøySone</se:Name>
+         <se:Name>RbFareOmråde</se:Name>
          <se:FeatureTypeStyle>
             <se:Rule>
                <se:Name>Grense</se:Name>
@@ -17,15 +17,13 @@
                   <se:Stroke>
                      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
                      <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
-                     <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                     <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
-                     <se:SvgParameter name="stroke-dasharray">16 5 1 5</se:SvgParameter>
+                     <se:SvgParameter name="stroke-dasharray">14 7</se:SvgParameter>
                   </se:Stroke>
                </se:LineSymbolizer>
-            </se:Rule>            
+            </se:Rule>
             <se:Rule>
                <se:Name>Område</se:Name>
-               <se:MaxScaleDenominator>40000</se:MaxScaleDenominator>              
+               <se:MaxScaleDenominator>40000</se:MaxScaleDenominator>
                <se:PolygonSymbolizer>
                   <se:Fill>
                      <se:GraphicFill>
@@ -35,7 +33,7 @@
                                  xlink:href="/workspaces/reguleringsplaner/styles/symbols/hatch-135.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
-                           <se:Size>28</se:Size>
+                           <se:Size>26</se:Size>
                         </se:Graphic>
                      </se:GraphicFill>
                   </se:Fill>

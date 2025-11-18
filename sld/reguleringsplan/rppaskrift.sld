@@ -1,7 +1,10 @@
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
-    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:se="http://www.opengis.net/se" version="1.1.0"
-    xsi:schemaLocation="http://www.opengis.net/sld StyledLayerDescriptor.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld"
+    xmlns:ogc="http://www.opengis.net/ogc"
+    xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0"
+    xmlns:se="http://www.opengis.net/se"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
     <NamedLayer>
         <se:Name>rppaskrift</se:Name>
         <UserStyle>
@@ -9,6 +12,7 @@
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>RpPåskrift</se:Name>
+                    <se:MaxScaleDenominator>2500</se:MaxScaleDenominator>
                     <se:TextSymbolizer>
                         <se:Label>
                             <ogc:PropertyName>generelltekststreng</ogc:PropertyName>

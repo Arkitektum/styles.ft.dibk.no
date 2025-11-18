@@ -12,15 +12,13 @@
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>1203 - Regulert tomtegrense</se:Name>
-                    <se:Description>
-                        <se:Title>1203 - Regulert tomtegrense</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1203</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -32,15 +30,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1204 - Eiendomsgrense som skal oppheves</se:Name>
-                    <se:Description>
-                        <se:Title>1204 - Eiendomsgrense som skal oppheves</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1204</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>2500</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -50,36 +46,34 @@
                             <se:SvgParameter name="stroke-dasharray">7 5</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:GraphicStroke>
-                                <se:Graphic>
-                                    <se:ExternalGraphic>
-                                        <se:OnlineResource xlink:type="simple"
-                                            xlink:href="${REGULERINGSPLAN_STYLES_PATH}/symbols/juridisk-linje-1204.png" />
-                                        <se:Format>image/png</se:Format>
-                                    </se:ExternalGraphic>
-                                    <se:Size>13</se:Size>
-                                </se:Graphic>
-                            </se:GraphicStroke>
-                        </se:Stroke>
-                    </se:LineSymbolizer>
+                    <se:TextSymbolizer>
+                        <se:Label>Z</se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-size">11</se:SvgParameter>
+                            <se:SvgParameter name="font-family">SansSerif</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:LinePlacement />
+                        </se:LabelPlacement>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#000000</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="repeat">40</se:VendorOption>
+                    </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1210 - Bygg, kulturminner, m.m. som skal bevares</se:Name>
-                    <se:Description>
-                        <se:Title>1210 - Bygg, kulturminner, m.m. som skal bevares</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1210</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-                            <se:SvgParameter name="stroke-width">4</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">3</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
@@ -87,15 +81,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1211 - Byggegrense</se:Name>
-                    <se:Description>
-                        <se:Title>1211 - Byggegrense</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1211</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -108,15 +100,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1213 - Planlagt bebyggelse</se:Name>
-                    <se:Description>
-                        <se:Title>1213 - Planlagt bebyggelse</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1213</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -128,15 +118,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1214 - Bebyggelse som inngår i planen </se:Name>
-                    <se:Description>
-                        <se:Title>1214 - Bebyggelse som inngår i planen </se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1214</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -148,15 +136,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1215 - Bebyggelse som forutsettes fjernet</se:Name>
-                    <se:Description>
-                        <se:Title>1215 - Bebyggelse som forutsettes fjernet</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1215</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -169,15 +155,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1221 - Regulert senterlinje</se:Name>
-                    <se:Description>
-                        <se:Title>1221 - Regulert senterlinje</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1221</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -190,15 +174,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1222 - Frisiktlinje</se:Name>
-                    <se:Description>
-                        <se:Title>1222 - Frisiktlinje</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1222</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -211,15 +193,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1223 - Regulert kant kjørebane </se:Name>
-                    <se:Description>
-                        <se:Title>1223 - Regulert kant kjørebane </se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1223</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -232,15 +212,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1224 - Regulert kjørefelt</se:Name>
-                    <se:Description>
-                        <se:Title>1224 - Regulert kjørefelt</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1224</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -253,15 +231,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1225 - Regulert parkeringsfelt</se:Name>
-                    <se:Description>
-                        <se:Title>1225 - Regulert parkeringsfelt</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1225</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -274,15 +250,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1226 - Regulert fotgjengerfelt</se:Name>
-                    <se:Description>
-                        <se:Title>1226 - Regulert fotgjengerfelt</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1226</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -295,22 +269,20 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1227 - Regulert støyskjerm</se:Name>
-                    <se:Description>
-                        <se:Title>1227 - Regulert støyskjerm</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1227</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>2500</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:GraphicStroke>
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource
-                                            xlink:href="${REGULERINGSPLAN_STYLES_PATH}/symbols/juridisk-linje-1227.svg"
+                                            xlink:href="/workspaces/reguleringsplaner/styles/symbols/juridisklinje-1227.svg"
                                             xlink:type="simple" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
@@ -322,15 +294,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1228 - Regulert støttemur</se:Name>
-                    <se:Description>
-                        <se:Title>1228 - Regulert støttemur</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1228</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>2500</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -341,36 +311,22 @@
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:GraphicStroke>
-                                <se:Graphic>
-                                    <se:ExternalGraphic>
-                                        <se:OnlineResource xlink:type="simple"
-                                            xlink:href="${REGULERINGSPLAN_STYLES_PATH}/symbols/svart-halv-linje.svg" />
-                                        <se:Format>image/svg+xml</se:Format>
-                                    </se:ExternalGraphic>
-                                    <se:Size>18</se:Size>
-                                    <se:Rotation>
-                                        <ogc:Literal>0</ogc:Literal>
-                                    </se:Rotation>
-                                </se:Graphic>
-                                <se:Gap>
-                                    <ogc:Literal>3</ogc:Literal>
-                                </se:Gap>
-                            </se:GraphicStroke>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">9</se:SvgParameter>
+                            <se:SvgParameter name="stroke-dasharray">1 11</se:SvgParameter>
                         </se:Stroke>
+                        <se:PerpendicularOffset>4</se:PerpendicularOffset>
                     </se:LineSymbolizer>
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1235 - Sikringsgjerde</se:Name>
-                    <se:Description>
-                        <se:Title>1235 - Sikringsgjerde</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1235</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>2500</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -379,32 +335,32 @@
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                    <se:LineSymbolizer>
-                        <se:Stroke>
-                            <se:GraphicStroke>
-                                <se:Graphic>
-                                    <se:ExternalGraphic>
-                                        <se:OnlineResource xlink:type="simple"
-                                            xlink:href="${REGULERINGSPLAN_STYLES_PATH}/symbols/juridisk-linje-1235.png" />
-                                        <se:Format>image/png</se:Format>
-                                    </se:ExternalGraphic>
-                                    <se:Size>14</se:Size>
-                                </se:Graphic>
-                            </se:GraphicStroke>
-                        </se:Stroke>
-                    </se:LineSymbolizer>
+                    <se:TextSymbolizer>
+                        <se:Label>//</se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-size">14</se:SvgParameter>
+                            <se:SvgParameter name="font-family">SansSerif</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:LinePlacement>
+                                <se:PerpendicularOffset>1</se:PerpendicularOffset>
+                            </se:LinePlacement>
+                        </se:LabelPlacement>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#000000</se:SvgParameter>
+                        </se:Fill>
+                        <se:VendorOption name="repeat">100</se:VendorOption>
+                    </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1252 - Bru</se:Name>
-                    <se:Description>
-                        <se:Title>1252 - Bru</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1252</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -417,15 +373,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1254 - Tunnel</se:Name>
-                    <se:Description>
-                        <se:Title>1254 - Tunnel</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1254</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -438,61 +392,77 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1259 - Måle og avstandslinje</se:Name>
-                    <se:Description>
-                        <se:Title>1259 - Måle og avstandslinje</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1259</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <se:PointSymbolizer>
+                    <se:MaxScaleDenominator>1250</se:MaxScaleDenominator>
+                    <se:TextSymbolizer>
                         <se:Geometry>
                             <ogc:Function name="startPoint">
                                 <ogc:PropertyName>senterlinje</ogc:PropertyName>
                             </ogc:Function>
                         </se:Geometry>
-                        <se:Graphic>
-                            <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple"
-                                    xlink:href="${REGULERINGSPLAN_STYLES_PATH}/symbols/juridisk-linje-1259.svg" />
-                                <se:Format>image/svg+xml</se:Format>
-                            </se:ExternalGraphic>
-                            <se:Size>12</se:Size>
-                            <se:Rotation>
-                                <ogc:Add>
-                                    <ogc:Function name="startAngle">
-                                        <ogc:PropertyName>senterlinje</ogc:PropertyName>
-                                    </ogc:Function>
-                                    <ogc:Literal>135</ogc:Literal>
-                                </ogc:Add>
-                            </se:Rotation>
-                        </se:Graphic>
-                    </se:PointSymbolizer>
-                    <se:PointSymbolizer>
+                        <se:Label>|</se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-size">14</se:SvgParameter>
+                            <se:SvgParameter name="font-family">SansSerif</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:Displacement>
+                                    <se:DisplacementX>-2</se:DisplacementX>
+                                    <se:DisplacementY>4</se:DisplacementY>
+                                </se:Displacement>
+                                <se:Rotation>
+                                    <ogc:Add>
+                                        <ogc:Function name="endAngle">
+                                            <ogc:PropertyName>senterlinje</ogc:PropertyName>
+                                        </ogc:Function>
+                                        <ogc:Literal>30</ogc:Literal>
+                                    </ogc:Add>
+                                </se:Rotation>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#000000</se:SvgParameter>
+                        </se:Fill>
+                      	<se:VendorOption name="conflictResolution">false</se:VendorOption>
+                    </se:TextSymbolizer>
+                    <se:TextSymbolizer>
                         <se:Geometry>
                             <ogc:Function name="endPoint">
                                 <ogc:PropertyName>senterlinje</ogc:PropertyName>
                             </ogc:Function>
                         </se:Geometry>
-                        <se:Graphic>
-                            <se:ExternalGraphic>
-                                <se:OnlineResource xlink:type="simple"
-                                    xlink:href="${REGULERINGSPLAN_STYLES_PATH}/symbols/juridisk-linje-1259.svg" />
-                                <se:Format>image/svg+xml</se:Format>
-                            </se:ExternalGraphic>
-                            <se:Size>12</se:Size>
-                            <se:Rotation>
-                                <ogc:Add>
-                                    <ogc:Function name="endAngle">
-                                        <ogc:PropertyName>senterlinje</ogc:PropertyName>
-                                    </ogc:Function>
-                                    <ogc:Literal>135</ogc:Literal>
-                                </ogc:Add>
-                            </se:Rotation>
-                        </se:Graphic>
-                    </se:PointSymbolizer>
+                        <se:Label>|</se:Label>
+                        <se:Font>
+                            <se:SvgParameter name="font-size">14</se:SvgParameter>
+                            <se:SvgParameter name="font-family">SansSerif</se:SvgParameter>
+                        </se:Font>
+                        <se:LabelPlacement>
+                            <se:PointPlacement>
+                                <se:Displacement>
+                                    <se:DisplacementX>-2</se:DisplacementX>
+                                    <se:DisplacementY>4</se:DisplacementY>
+                                </se:Displacement>
+                                <se:Rotation>
+                                    <ogc:Add>
+                                        <ogc:Function name="endAngle">
+                                            <ogc:PropertyName>senterlinje</ogc:PropertyName>
+                                        </ogc:Function>
+                                        <ogc:Literal>30</ogc:Literal>
+                                    </ogc:Add>
+                                </se:Rotation>
+                            </se:PointPlacement>
+                        </se:LabelPlacement>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#000000</se:SvgParameter>
+                        </se:Fill>
+                      	<se:VendorOption name="conflictResolution">false</se:VendorOption>                      
+                    </se:TextSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -504,15 +474,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1260 - Strandlinje sjø</se:Name>
-                    <se:Description>
-                        <se:Title>1260 - Strandlinje sjø</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1260</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#999999</se:SvgParameter>
@@ -525,15 +493,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1261 - Strandlinje vassdrag</se:Name>
-                    <se:Description>
-                        <se:Title>1261 - Strandlinje vassdrag</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1261</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#999999</se:SvgParameter>
@@ -546,15 +512,13 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>1262 - Midtlinje vassdrag</se:Name>
-                    <se:Description>
-                        <se:Title>1262 - Midtlinje vassdrag</se:Title>
-                    </se:Description>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>juridisklinje</ogc:PropertyName>
                             <ogc:Literal>1262</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>

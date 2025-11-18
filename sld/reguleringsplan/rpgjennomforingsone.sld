@@ -10,29 +10,35 @@
          <se:Name>RpGjennomføringSone</se:Name>
          <se:FeatureTypeStyle>
             <se:Rule>
-               <se:Name>RpGjennomføringSone</se:Name>
+               <se:Name>Grense</se:Name>
+               <se:MaxScaleDenominator>20000</se:MaxScaleDenominator>
                <se:LineSymbolizer>
                   <se:Stroke>
                      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-                     <se:SvgParameter name="stroke-width">2</se:SvgParameter>
+                     <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
                      <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                      <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
                      <se:SvgParameter name="stroke-dasharray">16 5 1 5</se:SvgParameter>
                   </se:Stroke>
                </se:LineSymbolizer>
+            </se:Rule>            
+            <se:Rule>
+               <se:Name>Område</se:Name>
+               <se:MaxScaleDenominator>40000</se:MaxScaleDenominator>
                <se:PolygonSymbolizer>
                   <se:Fill>
                      <se:GraphicFill>
                         <se:Graphic>
                            <se:ExternalGraphic>
-                              <se:OnlineResource xlink:type="simple" xlink:href="${REGULERINGSPLAN_STYLES_PATH}/symbols/stoysone.svg" />
+                              <se:OnlineResource xlink:type="simple"
+                                 xlink:href="/workspaces/reguleringsplaner/styles/symbols/hatch-135.svg" />
                               <se:Format>image/svg+xml</se:Format>
                            </se:ExternalGraphic>
-                           <se:Size>32</se:Size>
+                           <se:Size>28</se:Size>
                         </se:Graphic>
                      </se:GraphicFill>
                   </se:Fill>
-                 <se:VendorOption name="graphic-margin">-1</se:VendorOption>
+                  <se:VendorOption name="graphic-margin">-1</se:VendorOption>
                </se:PolygonSymbolizer>
             </se:Rule>
          </se:FeatureTypeStyle>

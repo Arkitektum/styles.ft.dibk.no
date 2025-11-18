@@ -6,9 +6,9 @@
    xmlns:se="http://www.opengis.net/se"
    xmlns:xlink="http://www.w3.org/1999/xlink">
    <NamedLayer>
-      <se:Name>rpbandleggingsone</se:Name>
+      <se:Name>rbfornyelseomrade</se:Name>
       <UserStyle>
-         <se:Name>RpBåndleggingSone</se:Name>
+         <se:Name>RbFornyelseOmråde</se:Name>
          <se:FeatureTypeStyle>
             <se:Rule>
                <se:Name>Grense</se:Name>
@@ -17,21 +17,19 @@
                   <se:Stroke>
                      <se:SvgParameter name="stroke">#000000</se:SvgParameter>
                      <se:SvgParameter name="stroke-width">1.5</se:SvgParameter>
-                     <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
-                     <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
-                     <se:SvgParameter name="stroke-dasharray">16 5 1 5</se:SvgParameter>
+                     <se:SvgParameter name="stroke-dasharray">8 8</se:SvgParameter>
                   </se:Stroke>
                </se:LineSymbolizer>
-            </se:Rule>            
+            </se:Rule>
             <se:Rule>
-               <se:Name>Område</se:Name>
+               <se:Name>800 - Fornyelsesområder (pbl §25, 1. ledd nr. 8)</se:Name>
                <se:MaxScaleDenominator>40000</se:MaxScaleDenominator>
                <se:PolygonSymbolizer>
                   <se:Fill>
                      <se:GraphicFill>
                         <se:Graphic>
                            <se:Mark>
-                              <se:WellKnownName>shape://horline</se:WellKnownName>
+                              <se:WellKnownName>shape://slash</se:WellKnownName>
                               <se:Stroke>
                                  <se:SvgParameter name="stroke">#000000</se:SvgParameter>
                                  <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>
@@ -47,7 +45,7 @@
                      <se:GraphicFill>
                         <se:Graphic>
                            <se:Mark>
-                              <se:WellKnownName>shape://vertline</se:WellKnownName>
+                              <se:WellKnownName>shape://backslash</se:WellKnownName>
                               <se:Stroke>
                                  <se:SvgParameter name="stroke">#000000</se:SvgParameter>
                                  <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>
