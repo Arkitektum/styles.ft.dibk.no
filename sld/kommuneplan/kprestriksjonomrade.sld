@@ -34,7 +34,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="/workspaces/kommuneplaner/styles/symbols/restriksjon-110.svg" />
+                                    xlink:href="${KOMPLAN_STYLES_DIR}/symbols/restriksjon-110.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>28</se:Size>
@@ -54,7 +54,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="/workspaces/kommuneplaner/styles/symbols/restriksjon-111.svg" />
+                                    xlink:href="${KOMPLAN_STYLES_DIR}/symbols/restriksjon-111.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>28</se:Size>
@@ -75,7 +75,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="/workspaces/kommuneplaner/styles/symbols/restriksjon-112.svg" />
+                                    xlink:href="${KOMPLAN_STYLES_DIR}/symbols/restriksjon-112.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>28</se:Size>
@@ -98,7 +98,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/restriksjon-136-60.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/restriksjon-136-60.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>14</se:Size>
@@ -113,7 +113,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/restriksjon-136-120.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/restriksjon-136-120.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>14</se:Size>
@@ -139,7 +139,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/restriksjon-141.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/restriksjon-141.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>22</se:Size>
@@ -164,7 +164,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/restriksjon-142-45.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/restriksjon-142-45.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>22</se:Size>
@@ -179,7 +179,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/restriksjon-142-135.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/restriksjon-142-135.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>22</se:Size>
@@ -206,7 +206,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/restriksjon-142-45.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/restriksjon-142-45.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>22</se:Size>
@@ -221,7 +221,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/restriksjon-142-135.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/restriksjon-142-135.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>22</se:Size>
@@ -384,7 +384,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/restriksjon-420-ekst.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/restriksjon-420-ekst.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>14</se:Size>
@@ -415,7 +415,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/restriksjon-420-frem.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/restriksjon-420-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>14</se:Size>
@@ -446,7 +446,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/restriksjon-499-ekst.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/restriksjon-499-ekst.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>10</se:Size>
@@ -477,7 +477,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/restriksjon-499-frem.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/restriksjon-499-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>10</se:Size>

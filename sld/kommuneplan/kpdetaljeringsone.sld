@@ -32,7 +32,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/detaljeringsone.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/detaljeringsone.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>37</se:Size>

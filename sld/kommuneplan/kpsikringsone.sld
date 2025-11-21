@@ -32,7 +32,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hensynsone.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/hensynsone.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>42</se:Size>

@@ -1454,7 +1454,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-1800-ekst.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/arealformal-1800-ekst.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>18</se:Size>
@@ -1511,7 +1511,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-1800-frem.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/arealformal-1800-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>18</se:Size>
@@ -2701,7 +2701,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-2800-ekst.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/arealformal-2800-ekst.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>18</se:Size>
@@ -2759,7 +2759,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-2800-frem.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/arealformal-2800-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>18</se:Size>
@@ -4143,7 +4143,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-4800-ekst.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/arealformal-4800-ekst.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>18</se:Size>
@@ -4200,7 +4200,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-4800-frem.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/arealformal-4800-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>18</se:Size>
@@ -4660,7 +4660,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/bolig.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/bolig.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>22</se:Size>
@@ -4722,7 +4722,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/bolig.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/bolig.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>22</se:Size>
@@ -4784,7 +4784,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hytte.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/hytte.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>22</se:Size>
@@ -4846,7 +4846,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hytte.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/hytte.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>22</se:Size>
@@ -4908,7 +4908,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/industribygning.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/industribygning.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>22</se:Size>
@@ -4970,7 +4970,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/industribygning.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/industribygning.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>22</se:Size>
@@ -6352,7 +6352,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-6800-ekst.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/arealformal-6800-ekst.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>18</se:Size>
@@ -6410,7 +6410,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-6800-frem.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/arealformal-6800-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>18</se:Size>

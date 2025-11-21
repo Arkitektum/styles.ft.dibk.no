@@ -30,7 +30,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="${REGPLAN_STYLES_DIR}/symbols/hatch-135.svg" />
+                                            xlink:href="${REGPLAN_STYLES_DIR}/symbols/hensynsone.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>26</se:Size>

@@ -36,7 +36,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/retningslinje-111.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/retningslinje-111.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>20</se:Size>
@@ -79,7 +79,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/retningslinje-112.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/retningslinje-112.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>14</se:Size>
@@ -122,7 +122,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/retningslinje-113.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/retningslinje-113.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>20</se:Size>
@@ -166,7 +166,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/retningslinje-121.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/retningslinje-121.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>8</se:Size>
@@ -192,7 +192,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/retningslinje-122.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/retningslinje-122.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>15</se:Size>

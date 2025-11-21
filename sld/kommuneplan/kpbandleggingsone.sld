@@ -38,7 +38,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/bandleggingsone-ekst.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/bandleggingsone-ekst.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>44</se:Size>
@@ -63,7 +63,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/bandleggingsone-frem.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/bandleggingsone-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>44</se:Size>

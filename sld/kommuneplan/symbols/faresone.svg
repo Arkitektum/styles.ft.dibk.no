@@ -6,7 +6,7 @@
     version="1.1"
     xmlns="http://www.w3.org/2000/svg">
     <g transform="rotate(45,48,48)">
-        <rect x="0" y="-96" width="3" height="288" fill="#26ff26" />
-        <rect x="48" y="-96" width="3" height="288" fill="#26ff26" />
+        <rect x="0" y="-96" width="5" height="288" fill="#ff0000" />
+        <rect x="48" y="-96" width="5" height="288" fill="#ff0000" />
     </g>
 </svg>

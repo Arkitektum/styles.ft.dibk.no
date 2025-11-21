@@ -30,7 +30,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/bestemmelseomrade.svg" />
+                                            xlink:href="${KOMPLAN_STYLES_DIR}/symbols/bestemmelseomrade.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>5</se:Size>

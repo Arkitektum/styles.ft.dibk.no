@@ -33,7 +33,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="/workspaces/kommuneplaner/styles/symbols/vegkryss-vn1-ekst.svg" />
+                                    xlink:href="${KOMPLAN_STYLES_DIR}/symbols/vegkryss-vn1-ekst.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>24</se:Size>
@@ -63,7 +63,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="/workspaces/kommuneplaner/styles/symbols/vegkryss-vn2-ekst.svg" />
+                                    xlink:href="${KOMPLAN_STYLES_DIR}/symbols/vegkryss-vn2-ekst.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>24</se:Size>
@@ -93,7 +93,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="/workspaces/kommuneplaner/styles/symbols/vegkryss-vn3-ekst.svg" />
+                                    xlink:href="${KOMPLAN_STYLES_DIR}/symbols/vegkryss-vn3-ekst.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>24</se:Size>
@@ -123,7 +123,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="/workspaces/kommuneplaner/styles/symbols/vegkryss-vn1-frem.svg" />
+                                    xlink:href="${KOMPLAN_STYLES_DIR}/symbols/vegkryss-vn1-frem.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>24</se:Size>
@@ -153,7 +153,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="/workspaces/kommuneplaner/styles/symbols/vegkryss-vn2-frem.svg" />
+                                    xlink:href="${KOMPLAN_STYLES_DIR}/symbols/vegkryss-vn2-frem.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>24</se:Size>
@@ -183,7 +183,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="/workspaces/kommuneplaner/styles/symbols/vegkryss-vn3-frem.svg" />
+                                    xlink:href="${KOMPLAN_STYLES_DIR}/symbols/vegkryss-vn3-frem.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>24</se:Size>
@@ -213,7 +213,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="/workspaces/kommuneplaner/styles/symbols/kollektivknutepunkt-vn1-ekst.svg" />
+                                    xlink:href="${KOMPLAN_STYLES_DIR}/symbols/kollektivknutepunkt-vn1-ekst.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>24</se:Size>
@@ -243,7 +243,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="/workspaces/kommuneplaner/styles/symbols/kollektivknutepunkt-vn2-ekst.svg" />
+                                    xlink:href="${KOMPLAN_STYLES_DIR}/symbols/kollektivknutepunkt-vn2-ekst.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>24</se:Size>
@@ -273,7 +273,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="/workspaces/kommuneplaner/styles/symbols/kollektivknutepunkt-vn3-ekst.svg" />
+                                    xlink:href="${KOMPLAN_STYLES_DIR}/symbols/kollektivknutepunkt-vn3-ekst.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>24</se:Size>
@@ -303,7 +303,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="/workspaces/kommuneplaner/styles/symbols/kollektivknutepunkt-vn1-frem.svg" />
+                                    xlink:href="${KOMPLAN_STYLES_DIR}/symbols/kollektivknutepunkt-vn1-frem.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>24</se:Size>
@@ -333,7 +333,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="/workspaces/kommuneplaner/styles/symbols/kollektivknutepunkt-vn2-frem.svg" />
+                                    xlink:href="${KOMPLAN_STYLES_DIR}/symbols/kollektivknutepunkt-vn2-frem.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>24</se:Size>
@@ -363,7 +363,7 @@
                         <se:Graphic>
                             <se:ExternalGraphic>
                                 <se:OnlineResource xlink:type="simple"
-                                    xlink:href="/workspaces/kommuneplaner/styles/symbols/kollektivknutepunkt-vn3-frem.svg" />
+                                    xlink:href="${KOMPLAN_STYLES_DIR}/symbols/kollektivknutepunkt-vn3-frem.svg" />
                                 <se:Format>image/svg+xml</se:Format>
                             </se:ExternalGraphic>
                             <se:Size>24</se:Size>
