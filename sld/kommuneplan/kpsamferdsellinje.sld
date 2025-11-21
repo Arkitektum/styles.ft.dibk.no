@@ -674,16 +674,16 @@
                             <se:GraphicStroke>
                                 <se:Graphic>
                                     <se:Mark>
-                                      <se:WellKnownName>circle</se:WellKnownName>
-                                      <se:Fill>
-                                        <se:SvgParameter name="fill">#000000</se:SvgParameter>
-                                      </se:Fill>
+                                        <se:WellKnownName>circle</se:WellKnownName>
+                                        <se:Fill>
+                                            <se:SvgParameter name="fill">#000000</se:SvgParameter>
+                                        </se:Fill>
                                     </se:Mark>
                                     <se:Size>5</se:Size>
                                 </se:Graphic>
                             </se:GraphicStroke>
-                      		<se:SvgParameter name="stroke-dasharray">5 8</se:SvgParameter>
-                      </se:Stroke>
+                            <se:SvgParameter name="stroke-dasharray">5 8</se:SvgParameter>
+                        </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
                 <se:Rule>
@@ -890,17 +890,17 @@
                             <se:GraphicStroke>
                                 <se:Graphic>
                                     <se:Mark>
-                                      <se:WellKnownName>circle</se:WellKnownName>                                      
-                                      <se:Stroke>
-                                        <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-                                        <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>                                        
-                                      </se:Stroke>                                      
+                                        <se:WellKnownName>circle</se:WellKnownName>
+                                        <se:Stroke>
+                                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+                                            <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>
+                                        </se:Stroke>
                                     </se:Mark>
                                     <se:Size>5</se:Size>
                                 </se:Graphic>
                             </se:GraphicStroke>
-                      		<se:SvgParameter name="stroke-dasharray">5 8</se:SvgParameter>
-                      </se:Stroke>
+                            <se:SvgParameter name="stroke-dasharray">5 8</se:SvgParameter>
+                        </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
                 <se:Rule>
@@ -927,17 +927,17 @@
                             <se:GraphicStroke>
                                 <se:Graphic>
                                     <se:Mark>
-                                      <se:WellKnownName>circle</se:WellKnownName>                                      
-                                      <se:Stroke>
-                                        <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-                                        <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>                                        
-                                      </se:Stroke>                                      
+                                        <se:WellKnownName>circle</se:WellKnownName>
+                                        <se:Stroke>
+                                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+                                            <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>
+                                        </se:Stroke>
                                     </se:Mark>
                                     <se:Size>5</se:Size>
                                 </se:Graphic>
                             </se:GraphicStroke>
-                      		<se:SvgParameter name="stroke-dasharray">5 3</se:SvgParameter>
-                      </se:Stroke>
+                            <se:SvgParameter name="stroke-dasharray">5 3</se:SvgParameter>
+                        </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
                 <se:Rule>
@@ -964,17 +964,17 @@
                             <se:GraphicStroke>
                                 <se:Graphic>
                                     <se:Mark>
-                                      <se:WellKnownName>circle</se:WellKnownName>                                      
-                                      <se:Stroke>
-                                        <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-                                        <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>                                        
-                                      </se:Stroke>                                      
+                                        <se:WellKnownName>circle</se:WellKnownName>
+                                        <se:Stroke>
+                                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+                                            <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>
+                                        </se:Stroke>
                                     </se:Mark>
                                     <se:Size>5</se:Size>
                                 </se:Graphic>
                             </se:GraphicStroke>
-                      		<se:SvgParameter name="stroke-dasharray">5 6</se:SvgParameter>
-                      </se:Stroke>
+                            <se:SvgParameter name="stroke-dasharray">5 6</se:SvgParameter>
+                        </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
                 <se:Rule>
@@ -1001,17 +1001,17 @@
                             <se:GraphicStroke>
                                 <se:Graphic>
                                     <se:Mark>
-                                      <se:WellKnownName>circle</se:WellKnownName>                                      
-                                      <se:Stroke>
-                                        <se:SvgParameter name="stroke">#ff0000</se:SvgParameter>
-                                        <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>                                        
-                                      </se:Stroke>                                      
+                                        <se:WellKnownName>circle</se:WellKnownName>
+                                        <se:Stroke>
+                                            <se:SvgParameter name="stroke">#ff0000</se:SvgParameter>
+                                            <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>
+                                        </se:Stroke>
                                     </se:Mark>
                                     <se:Size>5</se:Size>
                                 </se:Graphic>
                             </se:GraphicStroke>
-                      		<se:SvgParameter name="stroke-dasharray">5 8</se:SvgParameter>
-                      </se:Stroke>
+                            <se:SvgParameter name="stroke-dasharray">5 8</se:SvgParameter>
+                        </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
                 <se:Rule>
@@ -1038,17 +1038,17 @@
                             <se:GraphicStroke>
                                 <se:Graphic>
                                     <se:Mark>
-                                      <se:WellKnownName>circle</se:WellKnownName>                                      
-                                      <se:Stroke>
-                                        <se:SvgParameter name="stroke">#ff0000</se:SvgParameter>
-                                        <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>                                        
-                                      </se:Stroke>                                      
+                                        <se:WellKnownName>circle</se:WellKnownName>
+                                        <se:Stroke>
+                                            <se:SvgParameter name="stroke">#ff0000</se:SvgParameter>
+                                            <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>
+                                        </se:Stroke>
                                     </se:Mark>
                                     <se:Size>5</se:Size>
                                 </se:Graphic>
                             </se:GraphicStroke>
-                      		<se:SvgParameter name="stroke-dasharray">5 3</se:SvgParameter>
-                      </se:Stroke>
+                            <se:SvgParameter name="stroke-dasharray">5 3</se:SvgParameter>
+                        </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
                 <se:Rule>
@@ -1075,17 +1075,17 @@
                             <se:GraphicStroke>
                                 <se:Graphic>
                                     <se:Mark>
-                                      <se:WellKnownName>circle</se:WellKnownName>                                      
-                                      <se:Stroke>
-                                        <se:SvgParameter name="stroke">#ff0000</se:SvgParameter>
-                                        <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>                                        
-                                      </se:Stroke>                                      
+                                        <se:WellKnownName>circle</se:WellKnownName>
+                                        <se:Stroke>
+                                            <se:SvgParameter name="stroke">#ff0000</se:SvgParameter>
+                                            <se:SvgParameter name="stroke-width">0.75</se:SvgParameter>
+                                        </se:Stroke>
                                     </se:Mark>
                                     <se:Size>5</se:Size>
                                 </se:Graphic>
                             </se:GraphicStroke>
-                      		<se:SvgParameter name="stroke-dasharray">5 6</se:SvgParameter>
-                      </se:Stroke>
+                            <se:SvgParameter name="stroke-dasharray">5 6</se:SvgParameter>
+                        </se:Stroke>
                     </se:LineSymbolizer>
                 </se:Rule>
                 <se:Rule>

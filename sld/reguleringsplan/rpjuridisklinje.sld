@@ -429,7 +429,7 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
-                      	<se:VendorOption name="conflictResolution">false</se:VendorOption>
+                        <se:VendorOption name="conflictResolution">false</se:VendorOption>
                     </se:TextSymbolizer>
                     <se:TextSymbolizer>
                         <se:Geometry>
@@ -461,7 +461,7 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#000000</se:SvgParameter>
                         </se:Fill>
-                      	<se:VendorOption name="conflictResolution">false</se:VendorOption>                      
+                        <se:VendorOption name="conflictResolution">false</se:VendorOption>
                     </se:TextSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>

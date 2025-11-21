@@ -11,23 +11,8 @@
             <se:Name>KpBåndleggingSone</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
-                    <se:Name>KpBåndleggingSone</se:Name>
-                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>   
-                    <se:PolygonSymbolizer>
-                        <se:Fill>
-                            <se:GraphicFill>
-                                <se:Graphic>
-                                    <se:ExternalGraphic>
-                                        <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-cross-thin-black.svg" />
-                                        <se:Format>image/svg+xml</se:Format>
-                                    </se:ExternalGraphic>
-                                    <se:Size>44</se:Size>
-                                </se:Graphic>
-                            </se:GraphicFill>
-                        </se:Fill>
-                        <se:VendorOption name="graphic-margin">-1</se:VendorOption>
-                    </se:PolygonSymbolizer>
+                    <se:Name>Grense</se:Name>
+                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#000000</se:SvgParameter>
@@ -37,6 +22,56 @@
                             <se:SvgParameter name="stroke-dasharray">16 5 1 5</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
+                </se:Rule>
+                <se:Rule>
+                    <se:Name>Område (eksisterende)</se:Name>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>arealbruksstatus</ogc:PropertyName>
+                            <ogc:Literal>1</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:GraphicFill>
+                                <se:Graphic>
+                                    <se:ExternalGraphic>
+                                        <se:OnlineResource xlink:type="simple"
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/bandleggingsone-ekst.svg" />
+                                        <se:Format>image/svg+xml</se:Format>
+                                    </se:ExternalGraphic>
+                                    <se:Size>44</se:Size>
+                                </se:Graphic>
+                            </se:GraphicFill>
+                        </se:Fill>
+                        <se:VendorOption name="graphic-margin">-1</se:VendorOption>
+                    </se:PolygonSymbolizer>
+                </se:Rule>
+                <se:Rule>
+                    <se:Name>Område (fremtidig)</se:Name>
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>arealbruksstatus</ogc:PropertyName>
+                            <ogc:Literal>2</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:GraphicFill>
+                                <se:Graphic>
+                                    <se:ExternalGraphic>
+                                        <se:OnlineResource xlink:type="simple"
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/bandleggingsone-frem.svg" />
+                                        <se:Format>image/svg+xml</se:Format>
+                                    </se:ExternalGraphic>
+                                    <se:Size>44</se:Size>
+                                </se:Graphic>
+                            </se:GraphicFill>
+                        </se:Fill>
+                        <se:VendorOption name="graphic-margin">-1</se:VendorOption>
+                    </se:PolygonSymbolizer>
                 </se:Rule>
             </se:FeatureTypeStyle>
         </UserStyle>

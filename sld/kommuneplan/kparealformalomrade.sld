@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor version="1.1.0"
     xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
     xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
@@ -1510,7 +1511,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-1800-nytt.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-1800-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>18</se:Size>
@@ -2758,7 +2759,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-2800-nytt.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-2800-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>18</se:Size>
@@ -4199,7 +4200,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-4800-nytt.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-4800-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>18</se:Size>
@@ -4654,6 +4655,19 @@
                         </se:Fill>
                     </se:PolygonSymbolizer>
                     <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:GraphicFill>
+                                <se:Graphic>
+                                    <se:ExternalGraphic>
+                                        <se:OnlineResource xlink:type="simple"
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/bolig.svg" />
+                                        <se:Format>image/svg+xml</se:Format>
+                                    </se:ExternalGraphic>
+                                    <se:Size>22</se:Size>
+                                </se:Graphic>
+                            </se:GraphicFill>
+                        </se:Fill>
+                        <se:VendorOption name="graphic-margin">60</se:VendorOption>
                     </se:PolygonSymbolizer>
                     <se:TextSymbolizer>
                         <se:Label>
@@ -4703,6 +4717,19 @@
                         </se:Fill>
                     </se:PolygonSymbolizer>
                     <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:GraphicFill>
+                                <se:Graphic>
+                                    <se:ExternalGraphic>
+                                        <se:OnlineResource xlink:type="simple"
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/bolig.svg" />
+                                        <se:Format>image/svg+xml</se:Format>
+                                    </se:ExternalGraphic>
+                                    <se:Size>22</se:Size>
+                                </se:Graphic>
+                            </se:GraphicFill>
+                        </se:Fill>
+                        <se:VendorOption name="graphic-margin">60</se:VendorOption>
                     </se:PolygonSymbolizer>
                     <se:TextSymbolizer>
                         <se:Label>
@@ -4752,6 +4779,19 @@
                         </se:Fill>
                     </se:PolygonSymbolizer>
                     <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:GraphicFill>
+                                <se:Graphic>
+                                    <se:ExternalGraphic>
+                                        <se:OnlineResource xlink:type="simple"
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hytte.svg" />
+                                        <se:Format>image/svg+xml</se:Format>
+                                    </se:ExternalGraphic>
+                                    <se:Size>22</se:Size>
+                                </se:Graphic>
+                            </se:GraphicFill>
+                        </se:Fill>
+                        <se:VendorOption name="graphic-margin">60</se:VendorOption>
                     </se:PolygonSymbolizer>
                     <se:TextSymbolizer>
                         <se:Label>
@@ -4801,6 +4841,19 @@
                         </se:Fill>
                     </se:PolygonSymbolizer>
                     <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:GraphicFill>
+                                <se:Graphic>
+                                    <se:ExternalGraphic>
+                                        <se:OnlineResource xlink:type="simple"
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hytte.svg" />
+                                        <se:Format>image/svg+xml</se:Format>
+                                    </se:ExternalGraphic>
+                                    <se:Size>22</se:Size>
+                                </se:Graphic>
+                            </se:GraphicFill>
+                        </se:Fill>
+                        <se:VendorOption name="graphic-margin">60</se:VendorOption>
                     </se:PolygonSymbolizer>
                     <se:TextSymbolizer>
                         <se:Label>
@@ -4850,6 +4903,19 @@
                         </se:Fill>
                     </se:PolygonSymbolizer>
                     <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:GraphicFill>
+                                <se:Graphic>
+                                    <se:ExternalGraphic>
+                                        <se:OnlineResource xlink:type="simple"
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/industribygning.svg" />
+                                        <se:Format>image/svg+xml</se:Format>
+                                    </se:ExternalGraphic>
+                                    <se:Size>22</se:Size>
+                                </se:Graphic>
+                            </se:GraphicFill>
+                        </se:Fill>
+                        <se:VendorOption name="graphic-margin">60</se:VendorOption>
                     </se:PolygonSymbolizer>
                     <se:TextSymbolizer>
                         <se:Label>
@@ -4899,6 +4965,19 @@
                         </se:Fill>
                     </se:PolygonSymbolizer>
                     <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:GraphicFill>
+                                <se:Graphic>
+                                    <se:ExternalGraphic>
+                                        <se:OnlineResource xlink:type="simple"
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/industribygning.svg" />
+                                        <se:Format>image/svg+xml</se:Format>
+                                    </se:ExternalGraphic>
+                                    <se:Size>22</se:Size>
+                                </se:Graphic>
+                            </se:GraphicFill>
+                        </se:Fill>
+                        <se:VendorOption name="graphic-margin">60</se:VendorOption>
                     </se:PolygonSymbolizer>
                     <se:TextSymbolizer>
                         <se:Label>
@@ -6331,7 +6410,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-6800-nytt.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealformal-6800-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>18</se:Size>

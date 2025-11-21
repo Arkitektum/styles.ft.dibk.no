@@ -5,25 +5,25 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0"
     xmlns:se="http://www.opengis.net/se"
     xmlns:xlink="http://www.w3.org/1999/xlink">
-   <NamedLayer>
-      <se:Name>rpregulerthoyde</se:Name>
-      <UserStyle>
-         <se:Name>RpRegulertHøyde</se:Name>
-         <se:FeatureTypeStyle>
-            <se:Rule>
-               <se:Name>Regulert høyde</se:Name>
-               <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
-               <se:LineSymbolizer>
-                  <se:Stroke>
-                     <se:SvgParameter name="stroke">#000000</se:SvgParameter>
-                     <se:SvgParameter name="stroke-width">1</se:SvgParameter>
-                     <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
-                     <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
-                     <se:SvgParameter name="stroke-dasharray">7 4</se:SvgParameter>
-                  </se:Stroke>
-               </se:LineSymbolizer>
-            </se:Rule>
-         </se:FeatureTypeStyle>
-      </UserStyle>
-   </NamedLayer>
+    <NamedLayer>
+        <se:Name>rpregulerthoyde</se:Name>
+        <UserStyle>
+            <se:Name>RpRegulertHøyde</se:Name>
+            <se:FeatureTypeStyle>
+                <se:Rule>
+                    <se:Name>Regulert høyde</se:Name>
+                    <se:MaxScaleDenominator>5000</se:MaxScaleDenominator>
+                    <se:LineSymbolizer>
+                        <se:Stroke>
+                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+                            <se:SvgParameter name="stroke-width">1</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linejoin">round</se:SvgParameter>
+                            <se:SvgParameter name="stroke-linecap">round</se:SvgParameter>
+                            <se:SvgParameter name="stroke-dasharray">7 4</se:SvgParameter>
+                        </se:Stroke>
+                    </se:LineSymbolizer>
+                </se:Rule>
+            </se:FeatureTypeStyle>
+        </UserStyle>
+    </NamedLayer>
 </StyledLayerDescriptor>

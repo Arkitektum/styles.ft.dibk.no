@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor version="1.1.0"
     xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd"
     xmlns="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc"
@@ -21,7 +22,7 @@
                     </se:LineSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>100 - Byggeområder (pbl §20-4, 1. ledd nr. 1) - (eksisterende)</se:Name>
+                    <se:Name>100 - Byggeområder (pbl §20-4, 1. ledd nr. 1) (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -68,7 +69,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>100 - Byggeområder (pbl §20-4, 1. ledd nr. 1) - (framtidig)</se:Name>
+                    <se:Name>100 - Byggeområder (pbl §20-4, 1. ledd nr. 1) (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -115,7 +116,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>101 - Bybebyggelse - (eksisterende)</se:Name>
+                    <se:Name>101 - Bybebyggelse (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -162,7 +163,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>101 - Bybebyggelse - (framtidig)</se:Name>
+                    <se:Name>101 - Bybebyggelse (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -209,7 +210,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>102 - Tettbebyggelse - (eksisterende)</se:Name>
+                    <se:Name>102 - Tettbebyggelse (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -256,7 +257,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>102 - Tettbebyggelse - (framtidig)</se:Name>
+                    <se:Name>102 - Tettbebyggelse (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -351,7 +352,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>110 - Boligområde (frittliggende, konsentrert, blokker) - (framtidig)</se:Name>
+                    <se:Name>110 - Boligområde (frittliggende, konsentrert, blokker) (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -398,7 +399,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>120 - Senterområde (hovedsenter, lokalsenter) - (eksisterende)</se:Name>
+                    <se:Name>120 - Senterområde (hovedsenter, lokalsenter) (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -445,7 +446,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>120 - Senterområde (hovedsenter, lokalsenter) - (framtidig)</se:Name>
+                    <se:Name>120 - Senterområde (hovedsenter, lokalsenter) (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -492,7 +493,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>130 - Erverv - (eksisterende)</se:Name>
+                    <se:Name>130 - Erverv (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -539,7 +540,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>130 - Erverv - (framtidig)</se:Name>
+                    <se:Name>130 - Erverv (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -586,7 +587,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>131 - Forretning - (eksisterende)</se:Name>
+                    <se:Name>131 - Forretning (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -633,7 +634,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>131 - Forretning - (framtidig)</se:Name>
+                    <se:Name>131 - Forretning (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -680,7 +681,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>132 - Kontor - (eksisterende)</se:Name>
+                    <se:Name>132 - Kontor (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -727,7 +728,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>132 - Kontor - (framtidig)</se:Name>
+                    <se:Name>132 - Kontor (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -774,7 +775,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>133 - Industri - (eksisterende)</se:Name>
+                    <se:Name>133 - Industri (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -821,7 +822,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>133 - Industri - (framtidig)</se:Name>
+                    <se:Name>133 - Industri (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -868,7 +869,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>134 - Lager - (eksisterende)</se:Name>
+                    <se:Name>134 - Lager (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -915,7 +916,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>134 - Lager - (framtidig)</se:Name>
+                    <se:Name>134 - Lager (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -962,7 +963,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>140 - Fritidsbebyggelse - (eksisterende)</se:Name>
+                    <se:Name>140 - Fritidsbebyggelse (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1009,7 +1010,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>140 - Fritidsbebyggelse - (framtidig)</se:Name>
+                    <se:Name>140 - Fritidsbebyggelse (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1056,7 +1057,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>150 - Offentlig bygninger - (eksisterende)</se:Name>
+                    <se:Name>150 - Offentlig bygninger (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1103,7 +1104,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>150 - Offentlig bygninger - (framtidig)</se:Name>
+                    <se:Name>150 - Offentlig bygninger (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1198,7 +1199,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>155 - Bygninger med særskilt angitt allmennyttig formål - (framtidig)</se:Name>
+                    <se:Name>155 - Bygninger med særskilt angitt allmennyttig formål (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1245,7 +1246,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>160 - Kommunaltekniske anlegg - (eksisterende)</se:Name>
+                    <se:Name>160 - Kommunaltekniske anlegg (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1292,7 +1293,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>160 - Kommunaltekniske anlegg - (framtidig)</se:Name>
+                    <se:Name>160 - Kommunaltekniske anlegg (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1339,7 +1340,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>161 - Grav- og urnelund - (eksisterende)</se:Name>
+                    <se:Name>161 - Grav- og urnelund (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1386,7 +1387,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>161 - Grav- og urnelund - (framtidig)</se:Name>
+                    <se:Name>161 - Grav- og urnelund (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1433,7 +1434,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>162 - Avfallsbehandling - (eksisterende)</se:Name>
+                    <se:Name>162 - Avfallsbehandling (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1480,7 +1481,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>162 - Avfallsbehandling - (framtidig)</se:Name>
+                    <se:Name>162 - Avfallsbehandling (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1527,7 +1528,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>163 - Kommunalteknisk virksomhet - (eksisterende)</se:Name>
+                    <se:Name>163 - Kommunalteknisk virksomhet (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1574,7 +1575,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>163 - Kommunalteknisk virksomhet - (framtidig)</se:Name>
+                    <se:Name>163 - Kommunalteknisk virksomhet (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1621,7 +1622,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>170 - Friområde - (eksisterende)</se:Name>
+                    <se:Name>170 - Friområde (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1668,7 +1669,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>170 - Friområde - (framtidig)</se:Name>
+                    <se:Name>170 - Friområde (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1715,7 +1716,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>171 - Idrettsanlegg - (eksisterende)</se:Name>
+                    <se:Name>171 - Idrettsanlegg (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1762,7 +1763,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>171 - Idrettsanlegg - (framtidig)</se:Name>
+                    <se:Name>171 - Idrettsanlegg (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1809,7 +1810,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>172 - Park/turveg - (eksisterende)</se:Name>
+                    <se:Name>172 - Park/turveg (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1856,7 +1857,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>172 - Park/turveg - (framtidig)</se:Name>
+                    <se:Name>172 - Park/turveg (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1903,7 +1904,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>173 - Skiløype - (eksisterende)</se:Name>
+                    <se:Name>173 - Skiløype (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1950,7 +1951,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>173 - Skiløype - (framtidig)</se:Name>
+                    <se:Name>173 - Skiløype (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -1997,7 +1998,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>190 - Annet byggeområde - (eksisterende)</se:Name>
+                    <se:Name>190 - Annet byggeområde (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2044,7 +2045,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>190 - Annet byggeområde - (framtidig)</se:Name>
+                    <se:Name>190 - Annet byggeområde (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2140,7 +2141,7 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>200 - Landbruks- natur og friluftsområder (pbl §20-4, 1. ledd nr. 2) -
-                        (framtidig)</se:Name>
+                        (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2187,7 +2188,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>210 - LNF-område uten betemmelser om spredt bebyggelse - (eksisterende)</se:Name>
+                    <se:Name>210 - LNF-område uten betemmelser om spredt bebyggelse (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2235,7 +2236,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>210 - LNF-område uten betemmelser om spredt bebyggelse - (framtidig)</se:Name>
+                    <se:Name>210 - LNF-område uten betemmelser om spredt bebyggelse (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2283,7 +2284,7 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>220 - LNF-område med betemmelser om spredt bebyggelse (pbl §20-4, 2.
-                        ledd bokstav c) - (eksisterende)</se:Name>
+                        ledd bokstav c) (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2331,7 +2332,7 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>220 - LNF-område med betemmelser om spredt bebyggelse (pbl §20-4, 2.
-                        ledd bokstav c) - (eksisterende)</se:Name>
+                        ledd bokstav c) (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2378,7 +2379,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>221 - LNF-område der spredt boligbebyggelse er tillatt - (eksisterende)</se:Name>
+                    <se:Name>221 - LNF-område der spredt boligbebyggelse er tillatt (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2441,7 +2442,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>221 - LNF-område der spredt boligbebyggelse er tillatt - (framtidig)</se:Name>
+                    <se:Name>221 - LNF-område der spredt boligbebyggelse er tillatt (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2505,7 +2506,7 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>222 - LNF-område der spredt ervervsbebyggelse som ikke er tilknyttet
-                        stedbunden næring er tillatt - (eksisterende)</se:Name>
+                        stedbunden næring er tillatt (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2569,7 +2570,7 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>222 - LNF-område der spredt ervervsbebyggelse som ikke er tilknyttet
-                        stedbunden næring er tillatt - (framtidig)</se:Name>
+                        stedbunden næring er tillatt (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2696,7 +2697,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>223 - LNF-område der spredt fritidsbebyggelse er tillatt - (framtidig)</se:Name>
+                    <se:Name>223 - LNF-område der spredt fritidsbebyggelse er tillatt (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2808,7 +2809,7 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>300 - Områder for råstoffutvinning (pbl §20-4, 1. ledd nr. 3) -
-                        (framtidig)</se:Name>
+                        (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2855,7 +2856,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>310 - Gruvedrift - (eksisterende)</se:Name>
+                    <se:Name>310 - Gruvedrift (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2902,7 +2903,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>310 - Gruvedrift - (framtidig)</se:Name>
+                    <se:Name>310 - Gruvedrift (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2949,7 +2950,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>320 - Masseuttak (steinbrudd, grustak, sandtak) - (eksisterende)</se:Name>
+                    <se:Name>320 - Masseuttak (steinbrudd, grustak, sandtak) (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -2996,7 +2997,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>320 - Masseuttak (steinbrudd, grustak, sandtak) - (framtidig)</se:Name>
+                    <se:Name>320 - Masseuttak (steinbrudd, grustak, sandtak) (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3043,7 +3044,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>330 - Myrareal - (eksisterende)</se:Name>
+                    <se:Name>330 - Myrareal (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3090,7 +3091,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>330 - Myrareal - (framtidig)</se:Name>
+                    <se:Name>330 - Myrareal (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3138,7 +3139,7 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>400 - Områder som er båndlagt eller skal båndlegges (§20-4, 1. ledd nr.
-                        4) - (eksisterende)</se:Name>
+                        4) (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3186,7 +3187,7 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>400 - Områder som er båndlagt eller skal båndlegges (§20-4, 1. ledd nr.
-                        4) - (framtidig)</se:Name>
+                        4) (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3233,7 +3234,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>410 - Båndlegging etter lov om naturvern - (eksisterende)</se:Name>
+                    <se:Name>410 - Båndlegging etter lov om naturvern (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3253,7 +3254,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-135-black.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-410-ekst.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>7</se:Size>
@@ -3290,7 +3291,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>410 - Båndlegging etter lov om naturvern - (framtidig)</se:Name>
+                    <se:Name>410 - Båndlegging etter lov om naturvern (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3310,7 +3311,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-135-red.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-410-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>7</se:Size>
@@ -3347,7 +3348,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>420 - Båndlegging etter lov om kulturminner - (eksisterende)</se:Name>
+                    <se:Name>420 - Båndlegging etter lov om kulturminner (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3367,7 +3368,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-90-black.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-420-ekst.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>5</se:Size>
@@ -3404,7 +3405,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>420 - Båndlegging etter lov om kulturminner - (framtidig)</se:Name>
+                    <se:Name>420 - Båndlegging etter lov om kulturminner (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3424,7 +3425,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-90-red.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-420-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>5</se:Size>
@@ -3461,7 +3462,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>460 - Båndlegging for forsvaret - (eksisterende)</se:Name>
+                    <se:Name>460 - Båndlegging for forsvaret (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3481,7 +3482,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-120-black.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-460-ekst.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>24</se:Size>
@@ -3518,7 +3519,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>460 - Båndlegging for forsvaret - (framtidig)</se:Name>
+                    <se:Name>460 - Båndlegging for forsvaret (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3538,7 +3539,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-120-red.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-460-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>24</se:Size>
@@ -3575,7 +3576,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>470 - Områder som skal reguleres etter pbl - (eksisterende)</se:Name>
+                    <se:Name>470 - Områder som skal reguleres etter pbl (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3595,7 +3596,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-cross-black.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-470-ekst.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>10</se:Size>
@@ -3632,7 +3633,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>470 - Områder som skal reguleres etter pbl - (framtidig)</se:Name>
+                    <se:Name>470 - Områder som skal reguleres etter pbl (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3652,7 +3653,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-cross-red.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-470-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>10</se:Size>
@@ -3689,7 +3690,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>490 - Områder etter annet lovverk - (eksisterende)</se:Name>
+                    <se:Name>490 - Områder etter annet lovverk (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3709,7 +3710,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-30-black.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-490-30-ekst.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>16</se:Size>
@@ -3724,7 +3725,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-150-black.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-490-150-ekst.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>16</se:Size>
@@ -3761,7 +3762,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>490 - Områder etter annet lovverk - (framtidig)</se:Name>
+                    <se:Name>490 - Områder etter annet lovverk (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3781,7 +3782,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-30-red.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-490-30-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>16</se:Size>
@@ -3796,7 +3797,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-150-red.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-490-150-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>16</se:Size>
@@ -3833,7 +3834,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>499 - Båndlegging etter flere lovverk - (eksisterende)</se:Name>
+                    <se:Name>499 - Båndlegging etter flere lovverk (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3853,7 +3854,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-30-black.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-490-30-ekst.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>8</se:Size>
@@ -3868,7 +3869,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-150-black.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-490-150-ekst.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>8</se:Size>
@@ -3905,7 +3906,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>499 - Båndlegging etter flere lovverk - (framtidig)</se:Name>
+                    <se:Name>499 - Båndlegging etter flere lovverk (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -3925,7 +3926,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-30-red.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-490-30-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>8</se:Size>
@@ -3940,7 +3941,7 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-150-red.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-490-150-frem.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>8</se:Size>
@@ -3978,7 +3979,7 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>500 - Områder for særskilt bruk eller vern av sjø og vassdrag (pbl
-                        §20-4, 1. ledd nr. 5) - (eksisterende)</se:Name>
+                        §20-4, 1. ledd nr. 5) (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4026,7 +4027,7 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>500 - Områder for særskilt bruk eller vern av sjø og vassdrag (pbl
-                        §20-4, 1. ledd nr. 5) - (framtidig)</se:Name>
+                        §20-4, 1. ledd nr. 5) (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4073,7 +4074,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>510 - Vann med restriksjon (drikkevannskilde e.l.) - (eksisterende)</se:Name>
+                    <se:Name>510 - Vann med restriksjon (drikkevannskilde e.l.) (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4091,19 +4092,19 @@
                         <se:Fill>
                             <se:SvgParameter name="fill">#3fd8ff</se:SvgParameter>
                         </se:Fill>
-                    </se:PolygonSymbolizer>                  
+                    </se:PolygonSymbolizer>
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:GraphicFill>
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-0-black.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-510.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>7</se:Size>
                                 </se:Graphic>
-                            </se:GraphicFill>                            
+                            </se:GraphicFill>
                         </se:Fill>
                         <se:VendorOption name="graphic-margin">-1</se:VendorOption>
                     </se:PolygonSymbolizer>
@@ -4135,7 +4136,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>510 - Vann med restriksjon (drikkevannskilde e.l.) - (framtidig)</se:Name>
+                    <se:Name>510 - Vann med restriksjon (drikkevannskilde e.l.) (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4160,12 +4161,12 @@
                                 <se:Graphic>
                                     <se:ExternalGraphic>
                                         <se:OnlineResource xlink:type="simple"
-                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/hatch-0-black.svg" />
+                                            xlink:href="/workspaces/kommuneplaner/styles/symbols/arealbruk-510.svg" />
                                         <se:Format>image/svg+xml</se:Format>
                                     </se:ExternalGraphic>
                                     <se:Size>7</se:Size>
                                 </se:Graphic>
-                            </se:GraphicFill>                            
+                            </se:GraphicFill>
                         </se:Fill>
                         <se:VendorOption name="graphic-margin">-1</se:VendorOption>
                     </se:PolygonSymbolizer>
@@ -4238,7 +4239,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>521 - Småbåthavn - (eksisterende)</se:Name>
+                    <se:Name>521 - Småbåthavn (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4285,7 +4286,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>521 - Småbåthavn - (framtidig)</se:Name>
+                    <se:Name>521 - Småbåthavn (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4332,7 +4333,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>522 - Idrettsområde - (eksisterende)</se:Name>
+                    <se:Name>522 - Idrettsområde (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4379,7 +4380,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>522 - Idrettsområde - (framtidig)</se:Name>
+                    <se:Name>522 - Idrettsområde (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4467,7 +4468,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>531 - Ferdselsområde - (eksisterende)</se:Name>
+                    <se:Name>531 - Ferdselsområde (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4514,7 +4515,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>531 - Ferdselsområde - (framtidig)</se:Name>
+                    <se:Name>531 - Ferdselsområde (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4561,7 +4562,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>532 - Fiskeområde - (eksisterende)</se:Name>
+                    <se:Name>532 - Fiskeområde (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4608,7 +4609,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>532 - Fiskeområde - (framtidig)</se:Name>
+                    <se:Name>532 - Fiskeområde (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4655,7 +4656,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>533 - Akvakulturområde - (eksisterende)</se:Name>
+                    <se:Name>533 - Akvakulturområde (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4702,7 +4703,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>533 - Akvakulturområde - (framtidig)</se:Name>
+                    <se:Name>533 - Akvakulturområde (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4749,7 +4750,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>540 - LNF-område is sjø og vassdrag - (eksisterende)</se:Name>
+                    <se:Name>540 - LNF-område is sjø og vassdrag (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4796,7 +4797,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>540 - LNF-område is sjø og vassdrag - (framtidig)</se:Name>
+                    <se:Name>540 - LNF-område is sjø og vassdrag (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4843,7 +4844,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>541 - Friluftsområde i sjø og vassdrag - (eksisterende)</se:Name>
+                    <se:Name>541 - Friluftsområde i sjø og vassdrag (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4890,7 +4891,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>541 - Friluftsområde i sjø og vassdrag - (framtidig)</se:Name>
+                    <se:Name>541 - Friluftsområde i sjø og vassdrag (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4937,7 +4938,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>542 - Naturområde i sjø og vassdrag - (eksisterende)</se:Name>
+                    <se:Name>542 - Naturområde i sjø og vassdrag (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -4984,7 +4985,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>542 - Naturområde i sjø og vassdrag - (framtidig)</se:Name>
+                    <se:Name>542 - Naturområde i sjø og vassdrag (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5031,7 +5032,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>590 - Annen særskilt bruk eller vern - (eksisterende)</se:Name>
+                    <se:Name>590 - Annen særskilt bruk eller vern (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5078,7 +5079,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>590 - Annen særskilt bruk eller vern - (framtidig)</se:Name>
+                    <se:Name>590 - Annen særskilt bruk eller vern (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5126,7 +5127,7 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>600 - Viktige ledd i kommunikasjonssystemet (pbl §20-4, 1. ledd nr. 6)
-                        - (eksisterende)</se:Name>
+                        (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5174,7 +5175,7 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>600 - Viktige ledd i kommunikasjonssystemet (pbl §20-4, 1. ledd nr. 6)
-                        - (framtidig)</se:Name>
+                        (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5221,7 +5222,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>610 - Vegareal - (eksisterende)</se:Name>
+                    <se:Name>610 - Vegareal (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5268,7 +5269,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>610 - Vegareal - (framtidig)</se:Name>
+                    <se:Name>610 - Vegareal (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5315,7 +5316,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>620 - Parkering - (eksisterende)</se:Name>
+                    <se:Name>620 - Parkering (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5362,7 +5363,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>620 - Parkering - (framtidig)</se:Name>
+                    <se:Name>620 - Parkering (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5409,7 +5410,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>630 - Fotgjengerstrøk - (eksisterende)</se:Name>
+                    <se:Name>630 - Fotgjengerstrøk (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5456,7 +5457,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>630 - Fotgjengerstrøk - (framtidig)</se:Name>
+                    <se:Name>630 - Fotgjengerstrøk (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5503,7 +5504,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>631 - Bilfritt trafikkareal - (eksisterende)</se:Name>
+                    <se:Name>631 - Bilfritt trafikkareal (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5550,7 +5551,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>631 - Bilfritt trafikkareal - (framtidig)</se:Name>
+                    <se:Name>631 - Bilfritt trafikkareal (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5597,7 +5598,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>632 - Gang- og sykkelareal - (eksisterende)</se:Name>
+                    <se:Name>632 - Gang- og sykkelareal (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5644,7 +5645,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>632 - Gang- og sykkelareal - (framtidig)</se:Name>
+                    <se:Name>632 - Gang- og sykkelareal (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5691,7 +5692,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>640 - Terminal - (eksisterende)</se:Name>
+                    <se:Name>640 - Terminal (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5738,7 +5739,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>640 - Terminal - (framtidig)</se:Name>
+                    <se:Name>640 - Terminal (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5785,7 +5786,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>641 - Terminalbygg - (eksisterende)</se:Name>
+                    <se:Name>641 - Terminalbygg (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5832,7 +5833,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>641 - Terminalbygg - (framtidig)</se:Name>
+                    <se:Name>641 - Terminalbygg (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5879,7 +5880,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>650 - Jernbaneareal - (eksisterende)</se:Name>
+                    <se:Name>650 - Jernbaneareal (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5926,7 +5927,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>650 - Jernbaneareal - (framtidig)</se:Name>
+                    <se:Name>650 - Jernbaneareal (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -5973,7 +5974,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>660 - Sporvegsareal - (eksisterende)</se:Name>
+                    <se:Name>660 - Sporvegsareal (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -6020,7 +6021,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>660 - Sporvegsareal - (framtidig)</se:Name>
+                    <se:Name>660 - Sporvegsareal (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -6067,7 +6068,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>670 - Flyplass - (eksisterende)</se:Name>
+                    <se:Name>670 - Flyplass (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -6114,7 +6115,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>670 - Flyplass - (framtidig)</se:Name>
+                    <se:Name>670 - Flyplass (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -6161,7 +6162,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>680 - Havn - (eksisterende)</se:Name>
+                    <se:Name>680 - Havn (eksisterende)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>
@@ -6208,7 +6209,7 @@
                     </se:TextSymbolizer>
                 </se:Rule>
                 <se:Rule>
-                    <se:Name>680 - Havn - (framtidig)</se:Name>
+                    <se:Name>680 - Havn (fremtidig)</se:Name>
                     <ogc:Filter>
                         <ogc:And>
                             <ogc:PropertyIsEqualTo>

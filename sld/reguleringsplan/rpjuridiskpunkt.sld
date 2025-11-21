@@ -18,7 +18,7 @@
                             <ogc:Literal>1231</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>                    
+                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>
                     <se:PointSymbolizer>
                         <se:Graphic>
                             <se:ExternalGraphic>
@@ -47,7 +47,7 @@
                             <ogc:Literal>1241</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>                    
+                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>
                     <se:PointSymbolizer>
                         <se:Graphic>
                             <se:ExternalGraphic>
@@ -134,7 +134,7 @@
                             <ogc:Literal>1244</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>                    
+                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>
                     <se:PointSymbolizer>
                         <se:Graphic>
                             <se:ExternalGraphic>
@@ -163,7 +163,7 @@
                             <ogc:Literal>1251</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>                    
+                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>
                     <se:PointSymbolizer>
                         <se:Graphic>
                             <se:ExternalGraphic>
@@ -192,7 +192,7 @@
                             <ogc:Literal>1253</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>                    
+                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>
                     <se:PointSymbolizer>
                         <se:Graphic>
                             <se:ExternalGraphic>
@@ -221,7 +221,7 @@
                             <ogc:Literal>1271</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>                    
+                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>
                     <se:PointSymbolizer>
                         <se:Graphic>
                             <se:ExternalGraphic>
@@ -241,7 +241,7 @@
                             <ogc:Literal>1272</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>                    
+                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>
                     <se:PointSymbolizer>
                         <se:Graphic>
                             <se:ExternalGraphic>
@@ -261,7 +261,7 @@
                             <ogc:Literal>1273</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
-                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>                    
+                    <se:MaxScaleDenominator>1000</se:MaxScaleDenominator>
                     <se:PointSymbolizer>
                         <se:Graphic>
                             <se:ExternalGraphic>
@@ -278,10 +278,10 @@
                                     </ogc:Mul>
                                     <ogc:Literal>90</ogc:Literal>
                                 </ogc:Sub>
-                            </se:Rotation>                          
+                            </se:Rotation>
                         </se:Graphic>
                     </se:PointSymbolizer>
-                </se:Rule>                
+                </se:Rule>
             </se:FeatureTypeStyle>
         </UserStyle>
     </NamedLayer>

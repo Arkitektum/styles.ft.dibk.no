@@ -128,7 +128,7 @@
                             <se:SvgParameter name="stroke-dasharray">20 4</se:SvgParameter>
                         </se:Stroke>
                     </se:LineSymbolizer>
-                </se:Rule>              
+                </se:Rule>
             </se:FeatureTypeStyle>
         </UserStyle>
     </NamedLayer>
