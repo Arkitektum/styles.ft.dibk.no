@@ -6,13 +6,13 @@
     xmlns:se="http://www.opengis.net/se"
     xmlns:xlink="http://www.w3.org/1999/xlink">
     <NamedLayer>
-        <se:Name>kpomrade</se:Name>
+        <se:Name>rpomrade_pi</se:Name>
         <UserStyle>
-            <se:Name>KpOmråde</se:Name>
+            <se:Name>RpOmråde</se:Name>
             <se:FeatureTypeStyle>
                 <se:Rule>
                     <se:Name>Grense</se:Name>
-                    <se:MaxScaleDenominator>2000000</se:MaxScaleDenominator>
+                    <se:MaxScaleDenominator>75000</se:MaxScaleDenominator>
                     <se:LineSymbolizer>
                         <se:Stroke>
                             <se:SvgParameter name="stroke">#ffffff</se:SvgParameter>
@@ -21,7 +21,7 @@
                     </se:LineSymbolizer>
                     <se:LineSymbolizer>
                         <se:Stroke>
-                            <se:SvgParameter name="stroke">#000000</se:SvgParameter>
+                            <se:SvgParameter name="stroke">#ff0000</se:SvgParameter>
                             <se:SvgParameter name="stroke-width">3</se:SvgParameter>
                             <se:SvgParameter name="stroke-linejoin">bevel</se:SvgParameter>
                             <se:SvgParameter name="stroke-linecap">square</se:SvgParameter>
@@ -57,8 +57,8 @@
                 </se:Rule>
                 <se:Rule>
                     <se:Name>Område</se:Name>
-                    <se:MinScaleDenominator>400001</se:MinScaleDenominator>
-                    <se:MaxScaleDenominator>15000000</se:MaxScaleDenominator>
+                    <se:MinScaleDenominator>50001</se:MinScaleDenominator>
+                    <se:MaxScaleDenominator>5000000</se:MaxScaleDenominator>
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:SvgParameter name="fill">#6767ff</se:SvgParameter>
