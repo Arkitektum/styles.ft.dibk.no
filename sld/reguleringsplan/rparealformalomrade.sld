@@ -98,6 +98,21 @@
                     </se:PolygonSymbolizer>
                 </se:Rule>
                 <se:Rule>
+                    <se:Name>1114 - Studentboliger</se:Name>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>arealformal</ogc:PropertyName>
+                            <ogc:Literal>1114</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#ffff99</se:SvgParameter>
+                        </se:Fill>
+                    </se:PolygonSymbolizer>
+                </se:Rule>
+                <se:Rule>
                     <se:Name>1119 - Garasjeanlegg for bolig-/fritidsbebyggelse</se:Name>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
@@ -488,6 +503,21 @@
                     </se:PolygonSymbolizer>
                 </se:Rule>
                 <se:Rule>
+                    <se:Name>1202 - Massemottak</se:Name>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>arealformal</ogc:PropertyName>
+                            <ogc:Literal>1202</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#cc9999</se:SvgParameter>
+                        </se:Fill>
+                    </se:PolygonSymbolizer>
+                </se:Rule>
+                <se:Rule>
                     <se:Name>1300 - Næringsbebyggelse</se:Name>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
@@ -553,6 +583,36 @@
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>arealformal</ogc:PropertyName>
                             <ogc:Literal>1340</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#cc66ff</se:SvgParameter>
+                        </se:Fill>
+                    </se:PolygonSymbolizer>
+                </se:Rule>
+                <se:Rule>
+                    <se:Name>1341 - Kraftkrevende industri</se:Name>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>arealformal</ogc:PropertyName>
+                            <ogc:Literal>1341</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#9933ff</se:SvgParameter>
+                        </se:Fill>
+                    </se:PolygonSymbolizer>
+                </se:Rule>
+                <se:Rule>
+                    <se:Name>1342 - Datasenter</se:Name>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>arealformal</ogc:PropertyName>
+                            <ogc:Literal>1342</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
@@ -833,6 +893,21 @@
                     </se:PolygonSymbolizer>
                 </se:Rule>
                 <se:Rule>
+                    <se:Name>1531 - Solkraftanlegg</se:Name>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>arealformal</ogc:PropertyName>
+                            <ogc:Literal>1531</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#ff6633</se:SvgParameter>
+                        </se:Fill>
+                    </se:PolygonSymbolizer>
+                </se:Rule>
+                <se:Rule>
                     <se:Name>1540 - Vann- og avløpsanlegg</se:Name>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
@@ -868,6 +943,21 @@
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>arealformal</ogc:PropertyName>
                             <ogc:Literal>1542</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#ff9933</se:SvgParameter>
+                        </se:Fill>
+                    </se:PolygonSymbolizer>
+                </se:Rule>
+                <se:Rule>
+                    <se:Name>1543 - Overvannsanlegg</se:Name>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>arealformal</ogc:PropertyName>
+                            <ogc:Literal>1543</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
@@ -1033,6 +1123,21 @@
                         <ogc:PropertyIsEqualTo>
                             <ogc:PropertyName>arealformal</ogc:PropertyName>
                             <ogc:Literal>1630</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#66cc99</se:SvgParameter>
+                        </se:Fill>
+                    </se:PolygonSymbolizer>
+                </se:Rule>
+                <se:Rule>
+                    <se:Name>1640 - Urbant landbruk</se:Name>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>arealformal</ogc:PropertyName>
+                            <ogc:Literal>1640</ogc:Literal>
                         </ogc:PropertyIsEqualTo>
                     </ogc:Filter>
                     <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
@@ -1894,6 +1999,21 @@
                     </se:PolygonSymbolizer>
                 </se:Rule>
                 <se:Rule>
+                    <se:Name>2035 - Lufthavn, bygninger</se:Name>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>arealformal</ogc:PropertyName>
+                            <ogc:Literal>2035</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#999999</se:SvgParameter>
+                        </se:Fill>
+                    </se:PolygonSymbolizer>
+                </se:Rule>
+                <se:Rule>
                     <se:Name>2040 - Havn</se:Name>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
                         <ogc:PropertyIsEqualTo>
@@ -2344,6 +2464,21 @@
                     </se:PolygonSymbolizer>
                 </se:Rule>
                 <se:Rule>
+                    <se:Name>2200 - Faunapassasje</se:Name>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>arealformal</ogc:PropertyName>
+                            <ogc:Literal>2200</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#99cc99</se:SvgParameter>
+                        </se:Fill>
+                    </se:PolygonSymbolizer>
+                </se:Rule>
+                <se:Rule>
                     <se:Name>2800 - Kombinerte formål for samferdselsanlegg og/eller teknisk
                         infrastrukturtraser</se:Name>
                     <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
@@ -2406,6 +2541,21 @@
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:SvgParameter name="fill">#99ff99</se:SvgParameter>
+                        </se:Fill>
+                    </se:PolygonSymbolizer>
+                </se:Rule>
+                <se:Rule>
+                    <se:Name>3002 - Blågrønnstruktur</se:Name>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>arealformal</ogc:PropertyName>
+                            <ogc:Literal>3002</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#66ffcc</se:SvgParameter>
                         </se:Fill>
                     </se:PolygonSymbolizer>
                 </se:Rule>
@@ -3133,6 +3283,21 @@
                     <se:PolygonSymbolizer>
                         <se:Fill>
                             <se:SvgParameter name="fill">#33afaf</se:SvgParameter>
+                        </se:Fill>
+                    </se:PolygonSymbolizer>
+                </se:Rule>
+                <se:Rule>
+                    <se:Name>6140 - Massedeponi i sjø og vassdrag</se:Name>
+                    <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>arealformal</ogc:PropertyName>
+                            <ogc:Literal>6140</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:MaxScaleDenominator>50000</se:MaxScaleDenominator>
+                    <se:PolygonSymbolizer>
+                        <se:Fill>
+                            <se:SvgParameter name="fill">#64bebe</se:SvgParameter>
                         </se:Fill>
                     </se:PolygonSymbolizer>
                 </se:Rule>
